@@ -1,0 +1,88 @@
+.class public final synthetic Lcom/salesforce/android/smi/ui/internal/common/component/s;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# instance fields
+.field public final synthetic a:Ljava/lang/String;
+
+.field public final synthetic b:Lkotlin/jvm/functions/Function0;
+
+.field public final synthetic c:Landroidx/compose/ui/graphics/painter/a;
+
+.field public final synthetic d:LCb/l;
+
+.field public final synthetic e:J
+
+.field public final synthetic f:Lkotlin/jvm/functions/Function3;
+
+.field public final synthetic g:I
+
+.field public final synthetic h:I
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/graphics/painter/a;LCb/l;JLkotlin/jvm/functions/Function3;II)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->a:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->b:Lkotlin/jvm/functions/Function0;
+
+    iput-object p3, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->c:Landroidx/compose/ui/graphics/painter/a;
+
+    iput-object p4, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->d:LCb/l;
+
+    iput-wide p5, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->e:J
+
+    iput-object p7, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->f:Lkotlin/jvm/functions/Function3;
+
+    iput p8, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->g:I
+
+    iput p9, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->h:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 11
+
+    move-object v9, p1
+
+    check-cast v9, Landroidx/compose/runtime/j;
+
+    check-cast p2, Ljava/lang/Integer;
+
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v10
+
+    iget v7, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->g:I
+
+    iget v8, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->h:I
+
+    iget-object v0, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->a:Ljava/lang/String;
+
+    iget-object v1, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->b:Lkotlin/jvm/functions/Function0;
+
+    iget-object v2, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->c:Landroidx/compose/ui/graphics/painter/a;
+
+    iget-object v3, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->d:LCb/l;
+
+    iget-wide v4, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->e:J
+
+    iget-object v6, p0, Lcom/salesforce/android/smi/ui/internal/common/component/s;->f:Lkotlin/jvm/functions/Function3;
+
+    invoke-static/range {v0 .. v10}, Lcom/salesforce/android/smi/ui/internal/common/component/ScreenScaffoldKt;->b(Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/graphics/painter/a;LCb/l;JLkotlin/jvm/functions/Function3;IILandroidx/compose/runtime/j;I)Lkotlin/Unit;
+
+    move-result-object p0
+
+    return-object p0
+.end method

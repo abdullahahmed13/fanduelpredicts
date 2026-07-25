@@ -1,0 +1,211 @@
+.class public final Lio/reactivex/internal/operators/observable/p;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ldb/t;
+.implements Lfb/b;
+
+
+# instance fields
+.field public final a:Ldb/t;
+
+.field public final b:I
+
+.field public final c:Ljava/util/concurrent/Callable;
+
+.field public d:Ljava/util/Collection;
+
+.field public e:I
+
+.field public f:Lfb/b;
+
+
+# direct methods
+.method public constructor <init>(Ldb/t;ILjava/util/concurrent/Callable;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/p;->a:Ldb/t;
+
+    iput p2, p0, Lio/reactivex/internal/operators/observable/p;->b:I
+
+    iput-object p3, p0, Lio/reactivex/internal/operators/observable/p;->c:Ljava/util/concurrent/Callable;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Z
+    .locals 2
+
+    :try_start_0
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/p;->c:Ljava/util/concurrent/Callable;
+
+    invoke-interface {v0}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
+
+    move-result-object v0
+
+    const-string v1, "Empty buffer supplied"
+
+    invoke-static {v0, v1}, Ljb/k;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Ljava/util/Collection;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    iput-object v0, p0, Lio/reactivex/internal/operators/observable/p;->d:Ljava/util/Collection;
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :catchall_0
+    move-exception v0
+
+    invoke-static {v0}, Lcom/fasterxml/uuid/a;->e0(Ljava/lang/Throwable;)V
+
+    const/4 v1, 0x0
+
+    iput-object v1, p0, Lio/reactivex/internal/operators/observable/p;->d:Ljava/util/Collection;
+
+    iget-object v1, p0, Lio/reactivex/internal/operators/observable/p;->f:Lfb/b;
+
+    iget-object p0, p0, Lio/reactivex/internal/operators/observable/p;->a:Ldb/t;
+
+    if-nez v1, :cond_0
+
+    invoke-static {v0, p0}, Lio/reactivex/internal/disposables/EmptyDisposable;->d(Ljava/lang/Throwable;Ldb/t;)V
+
+    goto :goto_0
+
+    :cond_0
+    invoke-interface {v1}, Lfb/b;->dispose()V
+
+    invoke-interface {p0, v0}, Ldb/t;->onError(Ljava/lang/Throwable;)V
+
+    :goto_0
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final dispose()V
+    .locals 0
+
+    iget-object p0, p0, Lio/reactivex/internal/operators/observable/p;->f:Lfb/b;
+
+    invoke-interface {p0}, Lfb/b;->dispose()V
+
+    return-void
+.end method
+
+.method public final isDisposed()Z
+    .locals 0
+
+    iget-object p0, p0, Lio/reactivex/internal/operators/observable/p;->f:Lfb/b;
+
+    invoke-interface {p0}, Lfb/b;->isDisposed()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final onComplete()V
+    .locals 2
+
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/p;->d:Ljava/util/Collection;
+
+    if-eqz v0, :cond_1
+
+    const/4 v1, 0x0
+
+    iput-object v1, p0, Lio/reactivex/internal/operators/observable/p;->d:Ljava/util/Collection;
+
+    invoke-interface {v0}, Ljava/util/Collection;->isEmpty()Z
+
+    move-result v1
+
+    iget-object p0, p0, Lio/reactivex/internal/operators/observable/p;->a:Ldb/t;
+
+    if-nez v1, :cond_0
+
+    invoke-interface {p0, v0}, Ldb/t;->onNext(Ljava/lang/Object;)V
+
+    :cond_0
+    invoke-interface {p0}, Ldb/t;->onComplete()V
+
+    :cond_1
+    return-void
+.end method
+
+.method public final onError(Ljava/lang/Throwable;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lio/reactivex/internal/operators/observable/p;->d:Ljava/util/Collection;
+
+    iget-object p0, p0, Lio/reactivex/internal/operators/observable/p;->a:Ldb/t;
+
+    invoke-interface {p0, p1}, Ldb/t;->onError(Ljava/lang/Throwable;)V
+
+    return-void
+.end method
+
+.method public final onNext(Ljava/lang/Object;)V
+    .locals 2
+
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/p;->d:Ljava/util/Collection;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+
+    iget p1, p0, Lio/reactivex/internal/operators/observable/p;->e:I
+
+    add-int/lit8 p1, p1, 0x1
+
+    iput p1, p0, Lio/reactivex/internal/operators/observable/p;->e:I
+
+    iget v1, p0, Lio/reactivex/internal/operators/observable/p;->b:I
+
+    if-lt p1, v1, :cond_0
+
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/p;->a:Ldb/t;
+
+    invoke-interface {p1, v0}, Ldb/t;->onNext(Ljava/lang/Object;)V
+
+    const/4 p1, 0x0
+
+    iput p1, p0, Lio/reactivex/internal/operators/observable/p;->e:I
+
+    invoke-virtual {p0}, Lio/reactivex/internal/operators/observable/p;->a()Z
+
+    :cond_0
+    return-void
+.end method
+
+.method public final onSubscribe(Lfb/b;)V
+    .locals 1
+
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/p;->f:Lfb/b;
+
+    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->f(Lfb/b;Lfb/b;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/p;->f:Lfb/b;
+
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/p;->a:Ldb/t;
+
+    invoke-interface {p1, p0}, Ldb/t;->onSubscribe(Lfb/b;)V
+
+    :cond_0
+    return-void
+.end method

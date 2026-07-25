@@ -1,0 +1,59 @@
+.class public final Lcom/incode/welcome_sdk/commons/exceptions/video_selfie/SpoofDetectedException;
+.super Lcom/incode/welcome_sdk/commons/exceptions/video_selfie/VideoSelfieException;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Landroidx/annotation/Keep;
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0008\u0007\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
+    }
+    d2 = {
+        "Lcom/incode/welcome_sdk/commons/exceptions/video_selfie/SpoofDetectedException;",
+        "Lcom/incode/welcome_sdk/commons/exceptions/video_selfie/VideoSelfieException;",
+        "<init>",
+        "()V"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final $stable:I
+
+.field private static a:I
+
+.field private static b:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0x11
+
+    rem-int/lit16 v0, v0, 0x80
+
+    sput v0, Lcom/incode/welcome_sdk/commons/exceptions/video_selfie/SpoofDetectedException;->a:I
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const-string v0, "Selfie captured during Video Selfie step did not pass liveness check"
+
+    invoke-direct {p0, v0}, Lcom/incode/welcome_sdk/commons/exceptions/video_selfie/VideoSelfieException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

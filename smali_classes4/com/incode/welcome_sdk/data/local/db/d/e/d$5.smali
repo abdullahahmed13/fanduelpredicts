@@ -1,0 +1,65 @@
+.class final Lcom/incode/welcome_sdk/data/local/db/d/e/d$5;
+.super Landroidx/room/g0;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/incode/welcome_sdk/data/local/db/d/e/d;-><init>(Landroidx/room/RoomDatabase;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# static fields
+.field private static b:I = 0x0
+
+.field private static c:I = 0x1
+
+
+# instance fields
+.field private synthetic e:Lcom/incode/welcome_sdk/data/local/db/d/e/d;
+
+
+# direct methods
+.method public constructor <init>(Lcom/incode/welcome_sdk/data/local/db/d/e/d;Landroidx/room/RoomDatabase;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/incode/welcome_sdk/data/local/db/d/e/d$5;->e:Lcom/incode/welcome_sdk/data/local/db/d/e/d;
+
+    invoke-direct {p0, p2}, Landroidx/room/g0;-><init>(Landroidx/room/RoomDatabase;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final createQuery()Ljava/lang/String;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    sget p0, Lcom/incode/welcome_sdk/data/local/db/d/e/d$5;->b:I
+
+    add-int/lit8 p0, p0, 0x4b
+
+    rem-int/lit16 v0, p0, 0x80
+
+    sput v0, Lcom/incode/welcome_sdk/data/local/db/d/e/d$5;->c:I
+
+    rem-int/lit8 p0, p0, 0x2
+
+    if-nez p0, :cond_0
+
+    const/16 p0, 0x51
+
+    div-int/lit8 p0, p0, 0x0
+
+    :cond_0
+    const-string p0, "DELETE FROM combined_consent_result"
+
+    return-object p0
+.end method

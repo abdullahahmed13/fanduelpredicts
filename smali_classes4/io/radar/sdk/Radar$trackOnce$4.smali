@@ -1,0 +1,108 @@
+.class public final Lio/radar/sdk/Radar$trackOnce$4;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/radar/sdk/Radar$RadarTrackCallback;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lio/radar/sdk/Radar;->trackOnce(Landroid/location/Location;LCb/l;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000/\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0011\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002*\u0001\u0000\u0008\n\u0018\u00002\u00020\u0001J9\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00052\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u00072\u000e\u0010\u0008\u001a\n\u0012\u0004\u0012\u00020\n\u0018\u00010\t2\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u000cH\u0016\u00a2\u0006\u0002\u0010\r\u00a8\u0006\u000e"
+    }
+    d2 = {
+        "io/radar/sdk/Radar$trackOnce$4",
+        "Lio/radar/sdk/Radar$RadarTrackCallback;",
+        "onComplete",
+        "",
+        "status",
+        "Lio/radar/sdk/Radar$RadarStatus;",
+        "location",
+        "Landroid/location/Location;",
+        "events",
+        "",
+        "Lio/radar/sdk/model/RadarEvent;",
+        "user",
+        "Lio/radar/sdk/model/RadarUser;",
+        "(Lio/radar/sdk/Radar$RadarStatus;Landroid/location/Location;[Lio/radar/sdk/model/RadarEvent;Lio/radar/sdk/model/RadarUser;)V",
+        "sdk_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $block:LCb/l;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LCb/l;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(LCb/l;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LCb/l;",
+            ")V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lio/radar/sdk/Radar$trackOnce$4;->$block:LCb/l;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onComplete(Lio/radar/sdk/Radar$RadarStatus;Landroid/location/Location;[Lio/radar/sdk/model/RadarEvent;Lio/radar/sdk/model/RadarUser;)V
+    .locals 1
+    .param p1    # Lio/radar/sdk/Radar$RadarStatus;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Landroid/location/Location;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+    .param p3    # [Lio/radar/sdk/model/RadarEvent;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+    .param p4    # Lio/radar/sdk/model/RadarUser;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+
+    const-string v0, "status"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lio/radar/sdk/Radar$trackOnce$4;->$block:LCb/l;
+
+    invoke-interface {p0, p1, p2, p3, p4}, LCb/l;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method

@@ -1,0 +1,24 @@
+.class public final Lcom/amplitude/experiment/evaluation/f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public final serializer()Lkotlinx/serialization/KSerializer;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlinx/serialization/KSerializer<",
+            "Lcom/amplitude/experiment/evaluation/g;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    sget-object p0, Lcom/amplitude/experiment/evaluation/e;->a:Lcom/amplitude/experiment/evaluation/e;
+
+    return-object p0
+.end method

@@ -1,0 +1,64 @@
+.class public final synthetic Lcom/incode/welcome_sdk/ui/results/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lhb/o;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Lcom/incode/welcome_sdk/ui/results/ResultsActivity;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/incode/welcome_sdk/ui/results/ResultsActivity;I)V
+    .locals 0
+
+    iput p2, p0, Lcom/incode/welcome_sdk/ui/results/b;->a:I
+
+    iput-object p1, p0, Lcom/incode/welcome_sdk/ui/results/b;->b:Lcom/incode/welcome_sdk/ui/results/ResultsActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iget v0, p0, Lcom/incode/welcome_sdk/ui/results/b;->a:I
+
+    iget-object p0, p0, Lcom/incode/welcome_sdk/ui/results/b;->b:Lcom/incode/welcome_sdk/ui/results/ResultsActivity;
+
+    packed-switch v0, :pswitch_data_0
+
+    invoke-static {p0, p1}, Lcom/incode/welcome_sdk/ui/results/ResultsActivity;->m0(Lcom/incode/welcome_sdk/ui/results/ResultsActivity;Ljava/lang/Object;)Ldb/r;
+
+    move-result-object p0
+
+    return-object p0
+
+    :pswitch_0
+    invoke-static {p0, p1}, Lcom/incode/welcome_sdk/ui/results/ResultsActivity;->e0(Lcom/incode/welcome_sdk/ui/results/ResultsActivity;Ljava/lang/Object;)Ldb/r;
+
+    move-result-object p0
+
+    return-object p0
+
+    :pswitch_1
+    invoke-static {p0, p1}, Lcom/incode/welcome_sdk/ui/results/ResultsActivity;->g0(Lcom/incode/welcome_sdk/ui/results/ResultsActivity;Ljava/lang/Object;)Ldb/r;
+
+    move-result-object p0
+
+    return-object p0
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method

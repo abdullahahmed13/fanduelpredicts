@@ -1,0 +1,124 @@
+.class public final Lcom/incode/welcome_sdk/ui/id_capture/viewmodel/IdCaptureViewModel$sendAnalyticsEventForFirstClassification$1$invokeSuspend$$inlined$map$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlinx/coroutines/flow/Flow;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/incode/welcome_sdk/ui/id_capture/viewmodel/IdCaptureViewModel$s;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lkotlinx/coroutines/flow/Flow<",
+        "Lcom/incode/camera/analysis/document/DocumentAnalysisEvent$BoundsDetected;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0002\u0008\n\u0018\u00002\u0008\u0012\u0004\u0012\u00028\u00000\u0001J\u001e\u0010\u0005\u001a\u00020\u00042\u000c\u0010\u0003\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0002H\u0097@\u00a2\u0006\u0004\u0008\u0005\u0010\u0006"
+    }
+    d2 = {
+        "Lkotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1;",
+        "Lkotlinx/coroutines/flow/Flow;",
+        "Lkotlinx/coroutines/flow/h;",
+        "collector",
+        "",
+        "collect",
+        "(Lkotlinx/coroutines/flow/h;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field private static d:I = 0x1
+
+.field private static e:I
+
+
+# instance fields
+.field private synthetic b:Lkotlinx/coroutines/flow/Flow;
+
+
+# direct methods
+.method public constructor <init>(Lkotlinx/coroutines/flow/Flow;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/incode/welcome_sdk/ui/id_capture/viewmodel/IdCaptureViewModel$sendAnalyticsEventForFirstClassification$1$invokeSuspend$$inlined$map$1;->b:Lkotlinx/coroutines/flow/Flow;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final collect(Lkotlinx/coroutines/flow/h;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 1
+    .param p1    # Lkotlinx/coroutines/flow/h;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/coroutines/Continuation;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+
+    iget-object p0, p0, Lcom/incode/welcome_sdk/ui/id_capture/viewmodel/IdCaptureViewModel$sendAnalyticsEventForFirstClassification$1$invokeSuspend$$inlined$map$1;->b:Lkotlinx/coroutines/flow/Flow;
+
+    new-instance v0, Lcom/incode/welcome_sdk/ui/id_capture/viewmodel/IdCaptureViewModel$sendAnalyticsEventForFirstClassification$1$invokeSuspend$$inlined$map$1$2;
+
+    invoke-direct {v0, p1}, Lcom/incode/welcome_sdk/ui/id_capture/viewmodel/IdCaptureViewModel$sendAnalyticsEventForFirstClassification$1$invokeSuspend$$inlined$map$1$2;-><init>(Lkotlinx/coroutines/flow/h;)V
+
+    invoke-interface {p0, v0, p2}, Lkotlinx/coroutines/flow/Flow;->collect(Lkotlinx/coroutines/flow/h;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    sget-object p1, Lkotlin/coroutines/intrinsics/CoroutineSingletons;->a:Lkotlin/coroutines/intrinsics/CoroutineSingletons;
+
+    if-ne p0, p1, :cond_1
+
+    sget p1, Lcom/incode/welcome_sdk/ui/id_capture/viewmodel/IdCaptureViewModel$sendAnalyticsEventForFirstClassification$1$invokeSuspend$$inlined$map$1;->d:I
+
+    add-int/lit8 p1, p1, 0x4d
+
+    rem-int/lit16 p2, p1, 0x80
+
+    sput p2, Lcom/incode/welcome_sdk/ui/id_capture/viewmodel/IdCaptureViewModel$sendAnalyticsEventForFirstClassification$1$invokeSuspend$$inlined$map$1;->e:I
+
+    rem-int/lit8 p1, p1, 0x2
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0x5d
+
+    div-int/lit8 p1, p1, 0x0
+
+    :cond_0
+    return-object p0
+
+    :cond_1
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    return-object p0
+.end method

@@ -1,0 +1,166 @@
+.class public Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;
+.super Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$gnngnnn;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ggnngnn$iliilii"
+.end annotation
+
+
+# static fields
+.field public static v007600760076v0076v0076:I = 0x1
+
+.field public static vv00760076v0076v0076:I = 0x3c
+
+.field public static vvvv00760076v0076:I = 0x2
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$gnngnnn;-><init>()V
+
+    return-void
+.end method
+
+.method public static v0076vv00760076v0076()I
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+
+# virtual methods
+.method public hhh0068006800680068h(Ljava/lang/String;CC)Ljava/lang/String;
+    .locals 6
+
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
+
+    move-result p0
+
+    new-array p0, p0, [I
+
+    new-instance v0, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ilillii;
+
+    invoke-direct {v0, p1}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ilillii;-><init>(Ljava/lang/String;)V
+
+    const/4 p1, 0x0
+
+    move v1, p1
+
+    :cond_0
+    :goto_0
+    invoke-virtual {v0}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ilillii;->h0068h0068hhh0068()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    invoke-virtual {v0}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ilillii;->hhh0068hhh0068()I
+
+    move-result v2
+
+    invoke-static {v2}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/gnnggnn;->h0068hh006800680068h(I)Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/gnnggnn;
+
+    move-result-object v3
+
+    sget v4, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->vv00760076v0076v0076:I
+
+    sget v5, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->v007600760076v0076v0076:I
+
+    add-int/2addr v5, v4
+
+    mul-int/2addr v5, v4
+
+    sget v4, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->vvvv00760076v0076:I
+
+    rem-int/2addr v5, v4
+
+    if-eqz v5, :cond_1
+
+    const/4 v4, 0x7
+
+    sput v4, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->vv00760076v0076v0076:I
+
+    const/16 v4, 0x15
+
+    sput v4, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->v007600760076v0076v0076:I
+
+    :cond_1
+    invoke-virtual {v3, v2}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/gnnggnn;->h006800680068h00680068h(I)I
+
+    move-result v2
+
+    invoke-static {}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn;->h006800680068006800680068h()[C
+
+    move-result-object v4
+
+    invoke-static {}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn;->h006800680068006800680068h()[C
+
+    move-result-object v5
+
+    array-length v5, v5
+
+    rem-int v5, v1, v5
+
+    aget-char v4, v4, v5
+
+    mul-int v5, v1, p3
+
+    add-int/2addr v5, p2
+
+    xor-int/2addr v4, v5
+
+    sub-int/2addr v2, v4
+
+    invoke-virtual {v3, v2}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/gnnggnn;->h0068h0068h00680068h(I)I
+
+    move-result v2
+
+    aput v2, p0, v1
+
+    add-int/lit8 v1, v1, 0x1
+
+    sget v2, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->vv00760076v0076v0076:I
+
+    invoke-static {}, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->v0076vv00760076v0076()I
+
+    move-result v3
+
+    add-int/2addr v3, v2
+
+    mul-int/2addr v3, v2
+
+    sget v2, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->vvvv00760076v0076:I
+
+    rem-int/2addr v3, v2
+
+    if-eqz v3, :cond_0
+
+    const/16 v2, 0x28
+
+    sput v2, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->vv00760076v0076v0076:I
+
+    const/16 v2, 0x2b
+
+    sput v2, Lcom/lexisnexisrisk/threatmetrix/tmxprofiling/ggnngnn$iliilii;->v007600760076v0076v0076:I
+
+    goto :goto_0
+
+    :cond_2
+    new-instance p2, Ljava/lang/String;
+
+    invoke-direct {p2, p0, p1, v1}, Ljava/lang/String;-><init>([III)V
+
+    return-object p2
+.end method

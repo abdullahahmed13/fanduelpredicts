@@ -1,0 +1,30 @@
+.class public interface abstract Lcom/google/android/play/agesignals/protocol/IAgeSignalsServiceCallback;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/IInterface;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/play/agesignals/protocol/IAgeSignalsServiceCallback$Stub;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract onCompleteCheckAgeSignals(Landroid/os/Bundle;)V
+    .param p1    # Landroid/os/Bundle;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+.end method
+
+.method public abstract onError(Landroid/os/Bundle;)V
+    .param p1    # Landroid/os/Bundle;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+.end method
