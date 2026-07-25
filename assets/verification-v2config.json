@@ -1,0 +1,66 @@
+{
+  "displayMode": "dark",
+  "typography": {
+    "family": {
+      "text": {
+        "android": {
+          "regular": "@formation/typography/bodyLargeRegular",
+          "bold": "@formation/typography/bodyLargeStrong",
+          "medium": "@formation/typography/bodyLargeRegular"
+        },
+        "ios": {
+          "regular": "@formation/typography/bodyLargeRegular",
+          "bold": "@formation/typography/bodyLargeStrong",
+          "medium": "@formation/typography/bodyLargeRegular"
+        }
+      },
+      "display": {
+        "android": {
+          "regular": "@formation/typography/jumboMedium",
+          "bold": "@formation/typography/jumboMedium",
+          "medium": "@formation/typography/jumboMedium"
+        },
+        "ios": {
+          "regular": "@formation/typography/jumboMedium",
+          "bold": "@formation/typography/jumboMedium",
+          "medium": "@formation/typography/jumboMedium",
+          "extraBold": "@formation/typography/jumboMedium"
+        }
+      }
+    },
+    "letterSpacing": {
+      "none": 0,
+      "medium": -0.5,
+      "large": -1.0,
+      "extraLarge": -1.5
+    }
+  },
+  "colorPalette": {
+    "brand500": "@formation/colors/brandPrimaryDefault",
+    "gray50" : "@formation/colors/contentOnDark",
+    "gray300" : "@formation/colors/contentOnDark",
+    "gray500": "@formation/colors/greyL3",
+    "gray800": "@formation/colors/contentOnDark",
+    "gray900": "@formation/colors/blackTint040",
+    "negative500": "@formation/colors/systemWarningBackgroundDefault",
+    "negative600": "@formation/colors/systemWarningBackgroundDefault",
+    "positive600": "@formation/colors/systemPositiveBackgroundDefault",
+    "focus500": "@formation/colors/brandPrimaryDefault"
+  },
+  "components": {
+    "buttons": [
+      {
+        "style": "primary",
+        "border": {
+          "radius": 15
+        }
+      },
+      {
+        "style": "secondary",
+        "border": {
+          "radius": 15
+        }
+      }
+    ]
+  }
+}

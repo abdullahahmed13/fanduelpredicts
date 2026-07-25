@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="16.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff1c1d1d" android:pathData="M2.24 1.07c0.14-0.09 0.33-0.1 0.48-0.02l3 1.5C5.9 2.64 6 2.81 6 3S5.9 3.36 5.72 3.45l-3 1.5C2.57 5.02 2.38 5.02 2.24 4.93 2.09 4.83 2 4.67 2 4.5v-3c0-0.17 0.09-0.33 0.24-0.43ZM3 2.31v1.38L4.38 3 3 2.3Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M12.24 1.07c0.14-0.09 0.33-0.1 0.48-0.02l3 1.5C15.9 2.64 16 2.81 16 3s-0.1 0.36-0.28 0.45l-3 1.5c-0.15 0.07-0.34 0.07-0.48-0.02C12.09 4.83 12 4.67 12 4.5v-3c0-0.17 0.09-0.33 0.24-0.43ZM13 2.31v1.38L14.38 3 13 2.3Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M3 4v2.5H2V4h1Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M13 4v2h-1V4h1Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M2 16c-0.55 0-1-0.45-1-1v-5c0-0.55 0.45-1 1-1h12c0.55 0 1 0.45 1 1v5c0 0.55-0.45 1-1 1H2Zm0-6h12v5H2v-5Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M1.25 6.92C2.36 5.67 4.38 4.5 8 4.5s5.64 1.17 6.75 2.42c0.55 0.61 0.86 1.23 1.03 1.7 0.09 0.24 0.14 0.44 0.17 0.58L16 9.37v0.05 0.02L15.5 9.5 16 9.44c0.01 0.15-0.03 0.29-0.13 0.4-0.1 0.1-0.23 0.16-0.37 0.16h-15c-0.14 0-0.28-0.06-0.37-0.17C0.03 9.73-0.01 9.6 0 9.44L0.5 9.5 0 9.44V9.42l0.01-0.05 0.04-0.17c0.03-0.14 0.08-0.34 0.17-0.58 0.17-0.47 0.48-1.09 1.03-1.7ZM1 9.56ZM1.15 9V8.97C1.3 8.6 1.56 8.1 2 7.58c0.89-1 2.62-2.08 6-2.08s5.11 1.08 6 2.08c0.45 0.51 0.7 1.02 0.84 1.4L14.85 9H1.15Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M6 12.5C6 12.22 6.22 12 6.5 12h3c0.28 0 0.5 0.22 0.5 0.5v3H9V13H7v2.5H6v-3Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M4.5 9.4L4 9.5 3.5 9.6V9.58 9.58 9.54l-0.01-0.1-0.02-0.38c0-0.32 0.03-0.75 0.17-1.25 0.29-1.01 0.98-2.24 2.6-3.24l0.52 0.86C5.38 6.28 4.82 7.3 4.61 8.08 4.5 8.48 4.47 8.82 4.47 9.06l0.01 0.27L4.5 9.4Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M11.5 9.4L12 9.5l0.5 0.1V9.58 9.58 9.54l0.01-0.1 0.02-0.38c0-0.32-0.03-0.75-0.17-1.25-0.29-1.01-0.98-2.24-2.6-3.24L9.24 5.43c1.38 0.85 1.94 1.87 2.15 2.65 0.11 0.4 0.14 0.74 0.14 0.98l-0.01 0.27L11.5 9.4Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M8.5 5v4.5h-1V5h1Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M5 10v5.5H4V10h1Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff1c1d1d" android:pathData="M12 10v5.5h-1V10h1Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="100.0dip" app:strokeWidth="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/space2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.fanduel.formation.views.components.FDIcon android:id="@id/leading_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space6" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/text_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space3" app:layout_constraintBottom_toTopOf="@id/text_view_message" app:layout_constraintStart_toEndOf="@id/leading_icon" app:layout_constraintTop_toTopOf="parent" style="@style/Formation.TextAppearance.Heading.Small" />
+        <TextView android:id="@id/text_view_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space3" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/leading_icon" app:layout_constraintTop_toBottomOf="@id/text_view_title" style="@style/Formation.TextAppearance.Body.Medium.Regular" />
+        <TextView android:id="@id/text_view_action" android:padding="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/space1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/icon_action_button" app:layout_constraintTop_toTopOf="parent" style="@style/Formation.TextAppearance.Body.Medium.Strong" />
+        <LinearLayout android:gravity="center" android:id="@id/icon_action_button" android:visibility="gone" android:layout_width="@dimen/space12" android:layout_height="@dimen/space12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.fanduel.formation.views.components.FDIcon android:layout_gravity="center_vertical" android:id="@id/action_icon" android:background="@color/core_transparent_white" android:layout_width="17.0dip" android:layout_height="17.0dip" app:tint="@color/core_white" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

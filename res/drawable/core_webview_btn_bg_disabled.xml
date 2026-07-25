@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/core_webview_btn_disabled" />
+    <stroke android:width="@dimen/core_webview_btn_border" android:color="@color/core_webview_btn_border" />
+    <corners android:radius="@dimen/core_webview_btn_corner_radius" />
+</shape>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fanduel.formation.views.components.FDRangeSlider android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:maxValueLabelText="Max Value" app:minValueLabelText="Min Value" app:valueFrom="0.0" app:valueTo="20.0" app:values="@array/test_range_slider_values" />
+    <com.fanduel.formation.views.components.FDRangeSlider android:enabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:maxValueLabelText="Max Value" app:minValueLabelText="Min Value" app:valueFrom="0.0" app:valueTo="20.0" app:values="@array/test_range_slider_values" />
+    <com.fanduel.formation.views.components.FDRangeSlider android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:hideLabelText="true" app:minimumSeparation="3.0" app:valueFrom="0.0" app:valueTo="20.0" app:values="@array/test_range_slider_values" />
+    <com.fanduel.formation.views.components.FDRangeSlider android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:hideAllText="true" app:valueFrom="0.0" app:valueTo="20.0" app:values="@array/test_range_slider_values" />
+    <com.fanduel.formation.views.components.FDRangeSlider android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:maxValueLabelText="Max Value" app:minValueLabelText="Min Value" app:stepSize="2.0" app:valueFrom="0.0" app:valueTo="20.0" app:values="@array/test_range_slider_values" />
+</LinearLayout>

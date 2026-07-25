@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:id="@id/apptentive_note_alternate_text" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?apptentiveRichNoteAlternateTextStyle" />
+    <ImageView android:id="@id/apptentive_note_title_with_message_image" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?apptentiveNoteHeaderImageStyle" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" style="?apptentiveNoteTitleOrMessageOnlyImageStyle" />
+        <com.google.android.material.textview.MaterialTextView android:id="@id/apptentive_note_title_or_message_only" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?apptentiveNoteTitleOrMessageOnlyTextStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/webview_top_bar" android:background="#ff99daff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/webview_close" android:background="@null" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_alignParentLeft="true" android:contentDescription="@string/webview_close" />
+        <ImageButton android:id="@id/webview_share" android:background="@null" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_alignParentRight="true" android:contentDescription="@string/webview_share_link" />
+        <ImageButton android:id="@id/webview_view_in_browser" android:background="@null" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_toLeftOf="@id/webview_share" android:contentDescription="@string/webview_open_in_browser" />
+    </RelativeLayout>
+    <WebView android:id="@id/webview_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/webview_top_bar" />
+</RelativeLayout>

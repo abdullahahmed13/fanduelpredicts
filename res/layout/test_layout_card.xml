@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fanduel.formation.views.components.FDCard android:id="@id/fullWidthCardWithJustText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space3">
+        <LinearLayout android:orientation="vertical" android:id="@id/cardContents0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space4" android:paddingVertical="@dimen/space6">
+            <TextView android:textStyle="bold" android:id="@id/cardTitle0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="This is a title" />
+            <TextView android:id="@id/cardDescription0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="This is a description" />
+        </LinearLayout>
+    </com.fanduel.formation.views.components.FDCard>
+    <com.fanduel.formation.views.components.FDCard android:id="@id/shorterWidthCardWithJustText" android:layout_width="300.0dip" android:layout_height="100.0dip" android:layout_margin="@dimen/space3">
+        <LinearLayout android:orientation="vertical" android:id="@id/cardContents1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space4" android:paddingVertical="@dimen/space6">
+            <TextView android:textStyle="bold" android:id="@id/cardTitle1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="This is a title" />
+            <TextView android:id="@id/cardDescription1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="This is a description" />
+        </LinearLayout>
+    </com.fanduel.formation.views.components.FDCard>
+    <com.fanduel.formation.views.components.FDCard android:id="@id/cardWithTextAndImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/space3">
+        <LinearLayout android:orientation="vertical" android:id="@id/cardContents2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="Picture of a mountain range" app:srcCompat="@drawable/example_image_mountains" />
+            <LinearLayout android:orientation="vertical" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space4" android:paddingVertical="@dimen/space6" app:layout_constraintTop_toBottomOf="@id/imageView">
+                <TextView android:textStyle="bold" android:id="@id/cardTitle2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="This is a title" />
+                <TextView android:id="@id/cardDescription2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="This is a description" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.fanduel.formation.views.components.FDCard>
+</LinearLayout>

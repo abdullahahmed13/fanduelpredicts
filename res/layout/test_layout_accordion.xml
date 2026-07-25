@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/core_grey_l4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.fanduel.formation.views.components.FDAccordion android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/accordion_1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentContainerPadding="10.0dip" app:initiallyExpanded="true" app:label="@string/nested_accordion_example" app:leadingIcon="@drawable/ic_generosity_rewards" app:subtext="@string/subtext">
+            <com.fanduel.formation.views.components.FDAccordion android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/accordion_2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentContainerPadding="10.0dip" app:initiallyExpanded="true" app:label="@string/all_label" app:subtext="@string/subtext">
+                <com.fanduel.formation.views.components.FDAccordion android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/accordion_3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:initiallyExpanded="true" app:label="@string/all_label">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_1" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_2" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_3" />
+                </com.fanduel.formation.views.components.FDAccordion>
+                <com.fanduel.formation.views.components.FDAccordion android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/accordion_4" android:layout_width="fill_parent" android:layout_height="wrap_content" app:initiallyExpanded="true" app:label="@string/all_label">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_1" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_2" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_3" />
+                </com.fanduel.formation.views.components.FDAccordion>
+                <com.fanduel.formation.views.components.FDAccordion android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/accordion_5" android:layout_width="fill_parent" android:layout_height="wrap_content" app:initiallyExpanded="true" app:label="@string/all_label">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_1" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_2" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_3" />
+                </com.fanduel.formation.views.components.FDAccordion>
+                <com.fanduel.formation.views.components.FDAccordion android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/accordion_6" android:layout_width="fill_parent" android:layout_height="wrap_content" app:initiallyExpanded="true" app:label="@string/all_label">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_1" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_2" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_3" />
+                </com.fanduel.formation.views.components.FDAccordion>
+            </com.fanduel.formation.views.components.FDAccordion>
+        </com.fanduel.formation.views.components.FDAccordion>
+        <com.fanduel.formation.views.components.FDAccordion android:enabled="false" android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/accordion_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:label="@string/disabled_accordion" app:leadingIcon="@drawable/ic_generosity_action_token" app:subtext="@string/subtext" />
+        <com.fanduel.formation.views.components.FDAccordion android:orientation="vertical" android:id="@id/wallet_example" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:collapsedTrailingIcon="@drawable/ic_arrows_chevron_down_circle" app:contentContainerPadding="@dimen/space4" app:expandedTrailingIcon="@drawable/ic_arrows_chevron_up_circle" app:initiallyExpanded="true" app:label="@string/wallet">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+                <TextView android:textColor="@color/core_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/balance_details" android:includeFontPadding="false" />
+                <com.fanduel.formation.views.components.FDIcon android:gravity="end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_arrows_chevron_right_circle" android:layout_weight="1.0" app:tint="?link_default_base" style="@style/Formation.Icon.Small" />
+            </LinearLayout>
+            <TextView android:textColor="@color/core_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/deposit" />
+            <TextView android:textColor="@color/core_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/withdraw" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textColor="@color/core_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/transaction_history" android:includeFontPadding="false" />
+                <com.fanduel.formation.views.components.FDIcon android:gravity="end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_arrows_chevron_right_circle" android:layout_weight="1.0" app:tint="?link_default_base" style="@style/Formation.Icon.Small" />
+            </LinearLayout>
+        </com.fanduel.formation.views.components.FDAccordion>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/core_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <TextView android:textAppearance="@style/Formation.TextAppearance.Heading.Medium" android:textColor="@color/core_black" android:padding="@dimen/space4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/how_does_the_program_work" />
+        <com.fanduel.formation.views.components.FDAccordion android:orientation="vertical" android:id="@id/faq_example_1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:headingContainerBackground="@color/core_white" app:headingContainerPaddingBottom="@dimen/space3" app:initiallyExpanded="true" app:label="@string/step_1_awaiting_content" app:labelTextAppearance="@style/Formation.TextAppearance.Heading.Small" app:labelTextColor="@color/core_black" app:parentContainerBackground="@color/core_white" app:trailingIconTint="@color/core_black">
+            <TextView android:textColor="@color/core_black" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accordion_faq_text" />
+        </com.fanduel.formation.views.components.FDAccordion>
+        <View android:background="@color/core_grey_l3" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.fanduel.formation.views.components.FDAccordion android:orientation="vertical" android:id="@id/faq_example_2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:headingContainerBackground="@color/core_white" app:headingContainerPaddingBottom="@dimen/space3" app:initiallyExpanded="true" app:label="@string/step_2_awaiting_content" app:labelTextAppearance="@style/Formation.TextAppearance.Heading.Small" app:labelTextColor="@color/core_black" app:parentContainerBackground="@color/core_white" app:trailingIconTint="@color/core_black">
+            <TextView android:textColor="@color/core_black" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accordion_faq_text" />
+        </com.fanduel.formation.views.components.FDAccordion>
+        <View android:background="@color/core_grey_l3" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.fanduel.formation.views.components.FDAccordion android:orientation="vertical" android:id="@id/faq_example_3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:headingContainerBackground="@color/core_white" app:headingContainerPaddingBottom="@dimen/space3" app:initiallyExpanded="true" app:label="@string/step_3_awaiting_content" app:labelTextAppearance="@style/Formation.TextAppearance.Heading.Small" app:labelTextColor="@color/core_black" app:parentContainerBackground="@color/core_white" app:trailingIconTint="@color/core_black">
+            <TextView android:textColor="@color/core_black" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accordion_faq_text" />
+        </com.fanduel.formation.views.components.FDAccordion>
+        <View android:background="@color/core_grey_l3" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:stretchColumns="0,1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" style="@style/Formation.Tag.Condensed.Information.Fill" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" style="@style/Formation.Tag.Large.Information.Fill" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" app:showIcon="false" style="@style/Formation.Tag.Condensed.Information.Fill" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" app:showIcon="false" style="@style/Formation.Tag.Large.Information.Fill" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" app:customIcon="@drawable/ic_general_cross_circle" style="@style/Formation.Tag.Condensed.Information.Fill" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" app:customIcon="@drawable/ic_general_cross_circle" style="@style/Formation.Tag.Large.Information.Fill" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" style="@style/Formation.Tag.Condensed.Information.Outline" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" style="@style/Formation.Tag.Large.Information.Outline" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" app:showIcon="false" style="@style/Formation.Tag.Condensed.Information.Outline" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" app:showIcon="false" style="@style/Formation.Tag.Large.Information.Outline" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" app:customIcon="@drawable/ic_general_cross_circle" style="@style/Formation.Tag.Condensed.Information.Outline" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDTag android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEXT VALUE" app:customIcon="@drawable/ic_general_cross_circle" style="@style/Formation.Tag.Large.Information.Outline" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="TEXT" app:rightText="TEXT" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="TEXT" app:rightText="TEXT" app:tagSizeLarge="true" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="TEXT" app:rightText="TEXT" app:showLeftIcon="false" app:showRightIcon="false" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="TEXT" app:rightText="TEXT" app:showLeftIcon="false" app:showRightIcon="false" app:tagSizeLarge="true" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="" app:rightText="TEXT" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="" app:rightText="TEXT" app:tagSizeLarge="true" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="" app:rightText="TEXT" app:showRightIcon="false" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="" app:rightText="TEXT" app:showRightIcon="false" app:tagSizeLarge="true" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="TEXT" app:rightText="TEXT" app:showRightIcon="false" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="TEXT" app:rightText="TEXT" app:showRightIcon="false" app:tagSizeLarge="true" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="TEXT" app:rightText="" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="TEXT" app:rightText="" app:tagSizeLarge="true" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="" app:rightText="" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDSplitTag android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftText="" app:rightText="" app:tagSizeLarge="true" style="@style/Formation.SplitTag.Information" />
+        </FrameLayout>
+    </TableRow>
+</TableLayout>

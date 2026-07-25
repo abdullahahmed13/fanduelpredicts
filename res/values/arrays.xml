@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="onboard_sdk_country_codes">
+        <item>US</item>
+        <item>BR</item>
+        <item>MX</item>
+        <item>AF</item>
+        <item>AS</item>
+        <item>AR</item>
+        <item>AT</item>
+        <item>AU</item>
+        <item>BE</item>
+        <item>CA</item>
+        <item>KH</item>
+        <item>CL</item>
+        <item>CN</item>
+        <item>CO</item>
+        <item>CR</item>
+        <item>DK</item>
+        <item>EC</item>
+        <item>ES</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>DE</item>
+        <item>GU</item>
+        <item>IS</item>
+        <item>IN</item>
+        <item>IE</item>
+        <item>IT</item>
+        <item>HK</item>
+        <item>JP</item>
+        <item>LA</item>
+        <item>LI</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MY</item>
+        <item>MT</item>
+        <item>MH</item>
+        <item>MM</item>
+        <item>FM</item>
+        <item>NL</item>
+        <item>NZ</item>
+        <item>MP</item>
+        <item>NO</item>
+        <item>PW</item>
+        <item>PT</item>
+        <item>PR</item>
+        <item>SE</item>
+        <item>CH</item>
+        <item>TW</item>
+        <item>TH</item>
+        <item>GB</item>
+        <item>VN</item>
+        <item>VI</item>
+    </string-array>
+    <string-array name="onboard_sdk_country_names">
+        <item>United States</item>
+        <item>Brazil</item>
+        <item>Mexico</item>
+        <item>Afghanistan</item>
+        <item>American Samoa</item>
+        <item>Argentina</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Belgium</item>
+        <item>Canada</item>
+        <item>Cambodia</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Denmark</item>
+        <item>Ecuador</item>
+        <item>Spain</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Guam</item>
+        <item>Hong Kong</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Laos</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Malaysia</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Myanmar</item>
+        <item>Micronesia</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>North Mariana Islands</item>
+        <item>Norway</item>
+        <item>Palau</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+        <item>United Kingdom</item>
+        <item>Vietnam</item>
+        <item>Virgin Islands</item>
+    </string-array>
+    <string-array name="onboard_sdk_ekyc_brazil_nationalities">
+        <item>@string/onboard_sdk_ekyc_nationality_brazilian_string</item>
+        <item>@string/onboard_sdk_ekyc_nationality_naturalized_brazilian_string</item>
+        <item>@string/onboard_sdk_ekyc_nationality_foreigner_string</item>
+        <item>@string/onboard_sdk_ekyc_nationality_brazilian_born_abroad_string</item>
+    </string-array>
+    <string-array name="onboard_sdk_ekyc_countries">
+        <item>@string/onboard_sdk_ekyc_country_us_string</item>
+        <item>@string/onboard_sdk_ekyc_country_br_string</item>
+    </string-array>
+    <string-array name="onboard_sdk_genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="onboard_sdk_genders_values">
+        <item>H</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="onboard_sdk_mexico_states">
+        <item>Born Abroad</item>
+        <item>Aguascalientes</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Chiapas</item>
+        <item>Chihuahua</item>
+        <item>Ciudad De Mexico</item>
+        <item>Durango</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Hidalgo</item>
+        <item>Jalisco</item>
+        <item>Mexico</item>
+        <item>Michoacan</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Nuevo Leon</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Queretaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosi</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Tlaxcala</item>
+        <item>Veracruz</item>
+        <item>Yucatan</item>
+        <item>Zacatecas</item>
+    </string-array>
+    <string-array name="onboard_sdk_mexico_states_values">
+        <item>NE</item>
+        <item>AS</item>
+        <item>BC</item>
+        <item>BS</item>
+        <item>CC</item>
+        <item>CL</item>
+        <item>CM</item>
+        <item>CS</item>
+        <item>CH</item>
+        <item>DF</item>
+        <item>DG</item>
+        <item>GT</item>
+        <item>GR</item>
+        <item>HG</item>
+        <item>JC</item>
+        <item>MC</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>NT</item>
+        <item>NL</item>
+        <item>OC</item>
+        <item>PL</item>
+        <item>QO</item>
+        <item>QR</item>
+        <item>SP</item>
+        <item>SL</item>
+        <item>SR</item>
+        <item>TC</item>
+        <item>TS</item>
+        <item>TL</item>
+        <item>VZ</item>
+        <item>YN</item>
+        <item>ZS</item>
+    </string-array>
+    <array name="test_range_slider_values">
+        <item>6.0</item>
+        <item>14.0</item>
+    </array>
+</resources>

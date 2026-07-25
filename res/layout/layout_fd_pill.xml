@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/container" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/border_radius_circle" app:cardElevation="0.0dip" app:contentPaddingBottom="@dimen/space2" app:contentPaddingTop="@dimen/space2" app:strokeWidth="0.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.fanduel.formation.views.components.FDIcon android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/space1" android:layout_marginEnd="@dimen/space1" />
+            <com.fanduel.formation.views.components.FDBadge android:id="@id/badge" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

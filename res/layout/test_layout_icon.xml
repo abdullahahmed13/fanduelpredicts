@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fanduel.formation.views.components.FDIcon android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_general_cross_circle" style="@style/Formation.Icon.XSmall" />
+    <com.fanduel.formation.views.components.FDIcon android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_general_cross_circle" style="@style/Formation.Icon.Small" />
+    <com.fanduel.formation.views.components.FDIcon android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_general_cross_circle" style="@style/Formation.Icon.Medium" />
+    <com.fanduel.formation.views.components.FDIcon android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_general_cross_circle" style="@style/Formation.Icon.Large" />
+    <com.fanduel.formation.views.components.FDIcon android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_general_cross_circle" style="@style/Formation.Icon.XLarge" />
+    <com.fanduel.formation.views.components.FDIcon android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_general_cross_circle" style="@style/Formation.Icon.XXLarge" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?border_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?border_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?border_inverse" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?border_brand" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?border_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?border_disabled" />
+    </GridLayout>
+</LinearLayout>

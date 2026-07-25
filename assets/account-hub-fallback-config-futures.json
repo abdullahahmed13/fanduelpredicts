@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "analyticVendors": ["Amplitude"],
+  "items": [
+    {
+      "id": "SUPPORT",
+      "label": "Support",
+      "type": "collapsible",
+      "nested_items": [
+        {
+          "id": "ABOUT_FANDUEL",
+          "event_name": "About Fanduel",
+          "type": "link",
+          "label": "About FanDuel",
+          "url": "/about",
+          "order": 0
+        },
+        {
+          "id": "HELP_SUPPORT",
+          "event_name": "Help and Support",
+          "label": "Help and support",
+          "type": "function",
+          "method": "support",
+          "order": 3
+        },
+        {
+          "id": "ABOUT_CONSUMER_PROTECTION",
+          "event_name": "About Consumer Protection",
+          "type": "link",
+          "label": "About Consumer protection",
+          "url": "/consumer-protection/about",
+          "order": 5
+        },
+        {
+          "id": "ACCESSIBILITY",
+          "event_name": "Accessibility",
+          "type": "link",
+          "label": "Accessibility",
+          "url": "https://www.fanduel.com/accessibility",
+          "order": 6
+        },
+        {
+          "id": "TERMS_AND_CONDITIONS",
+          "event_name": "Terms and Conditions",
+          "type": "link",
+          "label": "Terms and conditions",
+          "url": "/terms",
+          "order": 9
+        },
+        {
+          "id": "PRIVACY",
+          "event_name": "Privacy",
+          "type": "link",
+          "label": "Privacy",
+          "url": "/privacy",
+          "order": 11
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "LOGOUT",
+      "event_name": "Logout Confirmation Alert",
+      "type": "function",
+      "method": "logout",
+      "pre_alert": {
+        "title": "Are you sure you want to log out?",
+        "accept": {
+          "text": "Yes",
+          "destructive": true,
+          "event_name": "Logout"
+        },
+        "deny": {
+          "text": "No",
+          "event_name": "Logout Cancel"
+        }
+      },
+      "label": "Log out",
+      "trailing_icon": "log_out",
+      "tint": "linkDestructiveBase",
+      "order": 1
+    }
+  ],
+  "wallet": {
+    "id": "WALLET_CONFIG",
+    "type": "wallet_config",
+    "enable_deposit": false,
+    "enable_withdraw": false,
+    "labels": {
+      "balance_details": "Balance Details"
+    },
+    "actions": {
+      "on_playable_balance_click": "balance_details"
+    },
+    "show_balance_if_zero": {
+      "PLAYABLE": false
+    },
+    "playable_balance_dialog_content": {
+      "event_name": "Playable Balance Info",
+      "content": "These are all the funds you can play in Futures.<br/><br/><b>Deposits</b><br/>You can trade with deposits made on Predicts. Deposits from other FanDuel products can't be used. Some deposits take 1-2 days to be cleared by your bank.<br/><br/><b>Available payouts</b><br/>You can trade with these payouts or withdraw them.<br/><br/><b>Pending payouts</b><br/>You can trade with these payouts. They'll be available to withdraw when they clear within 1-2 business days after settlement."
+    },
+    "main_balance": {
+      "id": "PLAYABLE",
+      "label": "Buying power"
+    },
+    "wallet_items": []
+  },
+  "footer": {
+    "id": "FOOTER_CONFIG",
+    "type": "localizable_footer",
+    "text": "Trade Responsibly. Manage your activity with our Consumer Protection tools.",
+    "icon": {
+      "item": {
+        "id": "consumer_protection",
+        "accessibility_label": "Consumer Protection"
+      },
+      "target_url": {
+        "path": "/consumer-protection"
+      },
+      "modal_title": "Consumer Protection"
+    }
+  }
+}

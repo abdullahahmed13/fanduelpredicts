@@ -1,0 +1,1 @@
+CoreWebViewAndroid.onMessage(topic, method, payload, UUID);

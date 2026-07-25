@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="font" name="onboard_sdk_BodyBig_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_BodyLead_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_BodyLongText_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_BodyQuote_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_ButtonPrimary_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+    <item type="font" name="onboard_sdk_ButtonSecondary_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+    <item type="font" name="onboard_sdk_ButtonText_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+    <item type="font" name="onboard_sdk_CountdownAnimation_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+    <item type="font" name="onboard_sdk_FaceMatchProgressTextBig_FontFamily">@font/onboard_sdk_FontFamilyBold_v2</item>
+    <item type="font" name="onboard_sdk_FaceMatchProgressTextMedium_FontFamily">@font/onboard_sdk_FontFamilyMedium_v2</item>
+    <item type="font" name="onboard_sdk_FontFamilyBold">@font/onboard_sdk_circular_std_bold</item>
+    <item type="font" name="onboard_sdk_FontFamilyBold_v2">@font/onboard_sdk_dm_sans_bold</item>
+    <item type="font" name="onboard_sdk_FontFamilyMedium_v2">@font/onboard_sdk_dm_sans_medium</item>
+    <item type="font" name="onboard_sdk_FontFamilyRegular">@font/onboard_sdk_circular_std_book</item>
+    <item type="font" name="onboard_sdk_FontFamilyRegular_v2">@font/onboard_sdk_dm_sans_regular</item>
+    <item type="font" name="onboard_sdk_Headline1_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+    <item type="font" name="onboard_sdk_Headline2_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+    <item type="font" name="onboard_sdk_Headline3_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_Headline4_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_IncodeSnackbar_Action_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_IncodeSnackbar_Content_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_InputBig_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_InputEditText_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_InputSmall_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_InputSpecial_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+    <item type="font" name="onboard_sdk_LabelBig_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+    <item type="font" name="onboard_sdk_LabelSmall_FontFamily">@font/onboard_sdk_FontFamilyRegular</item>
+    <item type="font" name="onboard_sdk_ScanFeedbackTextBig_FontFamily">@font/onboard_sdk_FontFamilyBold_v2</item>
+    <item type="font" name="onboard_sdk_ScanFeedbackTextSmall_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/smi_typing_ellipsis"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="smi_dot_1" android:animation="@drawable/$smi_typing_ellipsis_animated__0" />
+    <target android:name="smi_dot_2" android:animation="@drawable/$smi_typing_ellipsis_animated__1" />
+    <target android:name="smi_dot_3" android:animation="@drawable/$smi_typing_ellipsis_animated__2" />
+</animated-vector>

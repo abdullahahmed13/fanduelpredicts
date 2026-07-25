@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/core_grey" android:paddingTop="@dimen/space4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/space4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="#ff000000" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space1" android:layout_marginBottom="@dimen/space3" android:text="@string/scrollable_default_click_tabs_to_change_counters" />
+    <com.fanduel.formation.views.components.FDTabLayout android:id="@id/tab_layout1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Formation.TabLayout.Default.Scrollable" />
+    <Space android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <TextView android:textColor="#ff000000" android:id="@id/title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space1" android:layout_marginBottom="@dimen/space3" android:text="@string/fixed_default" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.fanduel.formation.views.components.FDTabLayout android:id="@id/tab_layout2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Formation.TabLayout.Default.Fixed" />
+    <Space android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <TextView android:textColor="#ff000000" android:id="@id/title3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space1" android:layout_marginBottom="@dimen/space3" android:text="@string/scrollable_inverse" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.fanduel.formation.views.components.FDTabLayout android:id="@id/tab_layout3" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Formation.TabLayout.Inverse.Scrollable" />
+    <Space android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <TextView android:textColor="#ff000000" android:id="@id/title4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space1" android:layout_marginBottom="@dimen/space3" android:text="@string/fixed_inverse" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.fanduel.formation.views.components.FDTabLayout android:id="@id/tab_layout4" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Formation.TabLayout.Inverse.Fixed" />
+</LinearLayout>

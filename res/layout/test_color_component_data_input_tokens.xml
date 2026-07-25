@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_background_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_background_layer" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_background_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_background_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_background_error" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_border_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_border_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_border_error" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_border_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_content_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_content_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_content_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_content_error" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_content_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_label_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_label_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_label_error" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_label_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_password_meter_empty" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_password_meter_weak" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_password_meter_fair" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_password_meter_good" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_password_meter_great" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_icon_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_icon_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_icon_error" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_data_input_icon_disabled" />
+    </GridLayout>
+</LinearLayout>

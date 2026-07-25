@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "endpoints": {
+    "compiled": {
+      "prod": "https://config.account.fanduel.com/flags/account-hub/compiled",
+      "dev": "https://config.account.qa.fndl.dev/flags/account-hub/compiled"
+    }
+  },
+  "versions": {
+    "android": "v6",
+    "ios": "v6",
+    "web": "v6"
+  }
+}

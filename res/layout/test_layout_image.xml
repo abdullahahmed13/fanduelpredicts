@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/Formation.TextAppearance.Heading.XSmall" android:textColor="?content_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/_16_9_in_a_1_1_container" android:textAlignment="center" />
+            <com.fanduel.formation.views.components.FDImage android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/example_image_mountains" android:scaleType="centerInside" android:contentDescription="@string/_16_9_in_a_1_1_container" app:aspectRatio="aspect1to1" />
+        </LinearLayout>
+        <View android:id="@id/divider0" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/Formation.TextAppearance.Heading.XSmall" android:textColor="?content_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/_16_9_in_a_16_9_container" android:textAlignment="center" />
+            <com.fanduel.formation.views.components.FDImage android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/example_image_mountains" android:scaleType="centerInside" android:contentDescription="@string/_16_9_in_a_16_9_container" app:aspectRatio="aspect16to9" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/Formation.TextAppearance.Heading.XSmall" android:textColor="?content_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/_16_9_in_a_2_1_container" android:includeFontPadding="false" android:textAlignment="center" />
+            <com.fanduel.formation.views.components.FDImage android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/example_image_mountains" android:scaleType="centerInside" android:contentDescription="@string/_16_9_in_a_2_1_container" app:aspectRatio="aspect2to1" />
+        </LinearLayout>
+        <View android:id="@id/divider2" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/Formation.TextAppearance.Heading.XSmall" android:textColor="?content_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/_16_9_in_a_7_2_container" android:textAlignment="center" />
+            <com.fanduel.formation.views.components.FDImage android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/example_image_mountains" android:scaleType="centerInside" android:contentDescription="@string/_16_9_in_a_7_2_container" app:aspectRatio="aspect7to2" />
+        </LinearLayout>
+        <View android:id="@id/divider3" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</ScrollView>

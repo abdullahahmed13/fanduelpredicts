@@ -1,0 +1,58 @@
+WEBVIEW_URL=https://predicts.fanduel.com
+CPE_BASE_URL=https://cpe.fanduel.com
+API_TOKEN=4aefd3a7aba08fdba304e1c977a9835f:
+PRODUCT=predicts
+APP_ENVIRONMENT=prod
+
+# Datadog
+DATADOG_CLIENT_TOKEN=pub74792633db57140b8a912f680638a1bb
+DATADOG_APPLICATION_ID=0656bcee-cd9e-4d16-a150-189b7a921a74
+DATADOG_ENVIRONMENT=release
+
+# Salesforce (v5 MIAW)
+SALESFORCE_ENVIRONMENT=PRODUCTION
+
+# Amplitude
+AMPLITUDE_TOKEN=89985de3ec131db9dd5cf40edfd19592
+AMPLITUDE_EXPERIMENT_TOKEN=client-cDi19Ws9F99h6Bksz2wXf6kAcmImLSGI
+
+# Appsflyer
+APPSFLYER_TOKEN=NEvWiNTVDrPoU8NBij8dab
+
+# Sift
+SIFT_ACCOUNT_ID=2cd7fd28042a1454
+SIFT_BEACON_KEY=2c8b6f22a3
+
+# Xtremepush
+XP_API_KEY=juEMKA0Pdcwyp8Rpan2bikpqfFqOO9vn
+XP_URL=https://sdk.fanduel.xtremepush.com
+
+# Deeplinks
+DEEPLINKS_HOST=predicts.fanduel.com,cpe.fanduel.com,link.account.predicts.fanduel.com,link.futures.fanduel.com
+DEEPLINKS_SCHEME=fanduel-predicts
+
+# Splash Screen Copy
+SPLASH_SCREEN_COPY=Gathering available markets...
+
+# Orientation Control
+ORIENTATION_PORTRAIT_ENABLED=false
+
+# Appsflyer OneLink Host
+APPSFLYER_ONE_LINK_HOST=fdpredicts.onelink.me
+
+# Alchemer
+APPTENTIVE_ACCOUNT_ID=ANDROID-FANDUEL-PREDICTION-MARKE
+APPTENTIVE_SIGNATURE=f3366f6decc5684d3fa454d5a273f439
+
+# Enable/disable Fullscreen mode
+IS_FULL_SCREEN = false
+
+# Safe area color
+SAFE_AREA_COLOR_TOP=#001C55
+SAFE_AREA_COLOR_BOTTOM=#FFFFFF
+
+# URL Block List
+URL_BLOCK_LIST=.*.ncpgambling.*,.*.referrals.*,.*my-spend.*,.*.onelink.*,.*.flutter.com/operating-responsibly/modern-slavery-statement$,.*.1800gambler.*,.*.ccpg.org.*,.*.ksgamblinghelp.*,.*.mdgamblinghelp.*,.*.gamblinghelplinema.*,.*.morethanagame.nc.*,.*.facebook.*,.*.twitter.*,.*.zendesk.*,.*.2fa.*,.*.icrg.*,.*.ncrg.*,.*.gamingcontrolboard.pa.gov.*,.*sportsbook-referral.*,.*sportsbook-casino-referral.*,.*promotions*.,.*faceoff-terms.*,.*refer-recruit.*,.*from=promoHub.*,apps.apple.com,play.google.com
+
+# Account Hub Delegates - List of page ids that the consumer will handle.
+ACCOUNT_HUB_PAGE_IDS=LEARN,PREDICTS_PROMO,PREDICTS_BONUS,PROMO_BONUS

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="-2.0dip">
+        <shape>
+            <stroke android:width="@dimen/space025" android:color="?component_data_input_border_base" />
+        </shape>
+    </item>
+    <item android:left="1.25dip" android:right="1.25dip" android:bottom="0.0dip">
+        <shape>
+            <solid android:color="?component_data_input_background_base" />
+        </shape>
+    </item>
+</layer-list>

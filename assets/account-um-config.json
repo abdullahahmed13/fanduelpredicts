@@ -1,0 +1,48 @@
+{
+  "biometrics": {
+    "fit_for_play": {
+      "enabled": {
+        "default": false,
+        "region": {
+          "on": true,
+          "ab": true
+        },
+        "countries": {
+          "ca": true
+        }
+      },
+      "content": {
+        "title": [
+          {
+            "region": "default",
+            "text": "Are you fit to play?"
+          }
+        ],
+        "description": [
+          {
+            "region": "default",
+            "text": "Betting should always feel fun. Are you in the mindset to play in a healthy way?"
+          }
+        ],
+        "positive_cta": [
+          {
+            "region": "default",
+            "text": "Yes, I'm fit to play"
+          }
+        ],
+        "negative_cta": [
+          {
+            "region": "default",
+            "text": "No, please log me out"
+          }
+        ],
+        "footnote": [
+          {
+            "region": "default",
+            "text": "You'll be logged out, but you can return anytime."
+          }
+        ]
+      }
+    }
+  }
+}

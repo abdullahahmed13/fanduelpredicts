@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="0.0dip" app:strokeWidth="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/space4" android:paddingEnd="@dimen/space2" android:paddingVertical="@dimen/space2">
+            <com.fanduel.formation.views.components.FDIcon android:id="@id/leading_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/space3" />
+            <TextView android:id="@id/text_view_banner_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/Formation.TextAppearance.Body.Medium.Regular" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/button_action_container" android:paddingTop="@dimen/space2" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/space12" android:minHeight="@dimen/space12" android:contentDescription="@string/action">
+            <com.fanduel.formation.views.components.FDIcon android:id="@id/action_button_icon" android:background="@color/core_transparent_white" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:tint="?system_important_content_on_subtle" />
+            <TextView android:id="@id/text_view_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="@dimen/space4" style="@style/Formation.TextAppearance.Body.Medium.Strong" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

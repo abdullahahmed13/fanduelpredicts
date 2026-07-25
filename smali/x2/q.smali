@@ -1,0 +1,41 @@
+.class public final Lx2/q;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Lz2/a;
+
+.field public final b:Lq2/d;
+
+.field public final c:Lw2/u;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const-string v0, "WMFgUpdater"
+
+    invoke-static {v0}, Landroidx/work/q;->e(Ljava/lang/String;)Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroidx/work/impl/WorkDatabase;Lq2/d;Lz2/a;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p2, p0, Lx2/q;->b:Lq2/d;
+
+    iput-object p3, p0, Lx2/q;->a:Lz2/a;
+
+    invoke-virtual {p1}, Landroidx/work/impl/WorkDatabase;->x()Lw2/u;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lx2/q;->c:Lw2/u;
+
+    return-void
+.end method

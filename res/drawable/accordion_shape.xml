@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/accordion_background_color_states" />
+    <corners android:radius="@dimen/border_radius030" />
+</shape>

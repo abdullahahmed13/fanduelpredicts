@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" package="com.fanduel.flywheelnativecontainer.futures" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:maxSdkVersion="28" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="http"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.paypal.android.p2pmobile"/>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:mimeType="application/pdf"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.venmo"/>
+        <intent>
+            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION"/>
+        </intent>
+        <intent>
+            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+        </intent>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.samsung.android.mapsagent"/>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL"/>
+            <data android:scheme="*"/>
+        </intent>
+        <package android:name="com.google.android.webview"/>
+        <package android:name="com.android.webview"/>
+    </queries>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-feature android:name="android.hardware.camera.any"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="com.samsung.android.mapsagent.permission.READ_APP_INFO"/>
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission android:name="com.fanduel.flywheelnativecontainer.futures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.fanduel.flywheelnativecontainer.futures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/appsflyer_data_extraction_rules" android:extractNativeLibs="false" android:fullBackupContent="@xml/backup_rules" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.fanduel.container.ContainerApplication" android:requestLegacyExternalStorage="true" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/ContainerTheme" android:usesCleartextTraffic="false">
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.fanduel.unifiedmodules.coredeeplinks.ui.CoreDeeplinksActivity" android:theme="@style/ContainerSplashTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="predicts.fanduel.com" android:scheme="https"/>
+                <data android:host="cpe.fanduel.com" android:scheme="https"/>
+                <data android:host="link.account.predicts.fanduel.com" android:scheme="https"/>
+                <data android:host="link.futures.fanduel.com" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="predicts.fanduel.com" android:scheme="fanduel-predicts"/>
+                <data android:host="cpe.fanduel.com" android:scheme="fanduel-predicts"/>
+                <data android:host="link.account.predicts.fanduel.com" android:scheme="fanduel-predicts"/>
+                <data android:host="link.futures.fanduel.com" android:scheme="fanduel-predicts"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fanduel-predicts"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="fdpredicts.onelink.me" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.futures-plugin-registration" android:exported="false" android:name="com.fanduel.flywheelnativecontainer.futures.FuturesPluginRegistrationProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.fanduel.container.webview.WebViewActivity" android:screenOrientation="unspecified" android:theme="@style/ContainerSplashTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.fanduel.libs.location.errorlauncher.ui.GeolocationTroubleshooterActivity" android:theme="@style/ContainerTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.fanduel.libs.coremodules.regions.ui.RegionSelectorActivity" android:theme="@style/ContainerTheme"/>
+        <service android:exported="false" android:name="com.fanduel.container.ContainerFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.fanduel.core.libs.modalpresenter.ModalActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Base"/>
+        <activity android:exported="false" android:name="com.fanduel.core.libs.modalpresenter.AlertActivity" android:theme="@style/CoreModalPresenterAlertTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.fanduel.core.libs.wallet.trustly.LightboxActivity" android:theme="@style/WalletTheme.Activity"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.fanduel.core.libs.wallet.braintree.paypal.PayPalHostActivity" android:theme="@style/WalletTheme.NoDisplay"/>
+        <activity android:name="com.fanduel.core.libs.accountverification.incode.IncodeWrapperActivity" android:theme="@style/AccountVerificationTransparent"/>
+        <activity android:name="com.fanduel.core.libs.accountbiometrics.prompt.BiometricsPromptActivity" android:theme="@style/AccountBiometricsTransparent"/>
+        <activity android:name="com.fanduel.core.libs.accountfitforplay.ui.FitForPlayActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.fanduel.libs.appstoreaccountabilityact.presentation.AgeBlockingActivity"/>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.com.salesforce.android.smi.ui" android:exported="false" android:grantUriPermissions="true" android:name="com.salesforce.android.smi.ui.UIFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/smi_attachment_file_paths"/>
+        </provider>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.salesforce.android.smi.ui.MessagingInappActivity" android:theme="@style/smi_theme" android:windowSoftInputMode="adjustResize"/>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.shareprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/libs_share_share_file_paths"/>
+        </provider>
+        <meta-data android:name="io.sentry.auto-init" android:value="false"/>
+        <activity android:exported="false" android:name="com.incode.welcome_sdk.n" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:exported="false" android:name="com.incode.welcome_sdk.ui.dynamic_forms.DynamicFormsActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.incode.welcome_sdk.ui.bio_consent.BiometricConsentActivity" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:exported="false" android:name="com.incode.welcome_sdk.ui.ml_consent.MachineLearningConsentActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:configChanges="uiMode" android:name="com.incode.welcome_sdk.ui.camera.id_validation.ReferredToExecutiveActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:configChanges="uiMode" android:name="com.incode.welcome_sdk.ui.camera.id_validation.ProcessIdActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:configChanges="uiMode" android:name="com.incode.welcome_sdk.ui.process_id.ProcessIdV2Activity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.ekyb.EKYBActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.ekyc.EKYCActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.email_address.EmailAddressActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme" android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name="com.incode.welcome_sdk.ui.name.NameActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.incode.welcome_sdk.ui.curp_validation.CurpValidationActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.incode.welcome_sdk.ui.tax_id_validation.TaxIdValidationActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme" android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name="com.incode.welcome_sdk.ui.camera.id_validation.DocumentValidationActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.id_info.IdInfoActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.geolocation.GeolocationActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.tutorial.IDTypeChooserActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.phone_number.PhoneNumberActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme" android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name="com.incode.welcome_sdk.ui.intro.IntroActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.camera.qr_code.QRCodeScanTipsActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.tutorial.TutorialFrontActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.tutorial.TutorialBackActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.tutorial.TutorialPassportActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.camera.qr_code.QRCodeScanActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:configChanges="uiMode" android:name="com.incode.welcome_sdk.ui.camera.id_validation.ValidationActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.id_capture.IdCaptureActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.document_scan.SelectDocumentSourceActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.tutorial.TutorialDocumentScanActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.tutorial.TutorialSelfieActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.selfie_capture.SelfieScanActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.camera.selfie.SelfieActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.selfie_result.FaceMatchActivityV1" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.face_match.FaceMatchActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.government_validation.GovernmentValidationActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.signature_form.SignatureFormActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:configChanges="uiMode" android:name="com.incode.welcome_sdk.ui.camera.review_photo.ReviewPhotoActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.incode.welcome_sdk.ui.approve.ApproveActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.incode.welcome_sdk.ui.video_conference.VideoConferenceActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.incode.welcome_sdk.ui.results.ResultsActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.user_consent.UserConsentActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.combined_consent.CombinedConsentActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.accept_video_selfie.AcceptVideoSelfieActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.camera.video_selfie.video_selfie_checks.VideoSelfieChecksActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.camera.video_selfie.VideoSelfieActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.captcha.CaptchaActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:name="com.incode.welcome_sdk.ui.custom_watchlist.CustomWatchlistActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.global_watchlist.GlobalWatchlistActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.delayed_onboarding.DelayedOnboardingIntroActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.antifraud.AntifraudActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.aes.AESActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <activity android:name="com.incode.welcome_sdk.ui.qes.QESActivity" android:screenOrientation="portrait" android:theme="@style/onboard_sdk_DefaultTheme"/>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.welcome_sdk.file_provider" android:exported="false" android:grantUriPermissions="true" android:name="com.incode.welcome_sdk.IncodeFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/onboard_sdk_file_provider_paths"/>
+        </provider>
+        <service android:name="com.incode.welcome_sdk.commons.video_upload.VideoUploadJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="false" android:name="apptentive.com.android.feedback.enjoyment.EnjoymentDialogSupportFragmentManagerActivity" android:theme="@style/Theme.Apptentive.NoAnimation"/>
+        <activity android:name="apptentive.com.android.feedback.survey.SurveyActivity" android:theme="@style/Theme.Apptentive"/>
+        <activity android:exported="false" android:name="apptentive.com.android.feedback.textmodal.TextModalSupportFragmentManagerActivity" android:theme="@style/Theme.Apptentive.NoAnimation"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="apptentive.com.android.feedback.link.view.NavigateTolinkActivity" android:theme="@style/Theme.Apptentive" android:usesCleartextTraffic="true"/>
+        <activity android:exported="false" android:name="apptentive.com.android.feedback.messagecenter.view.ProfileActivity" android:theme="@style/Theme.Apptentive"/>
+        <activity android:exported="false" android:name="apptentive.com.android.feedback.messagecenter.view.ImagePreviewActivity" android:theme="@style/Theme.Apptentive"/>
+        <activity android:exported="false" android:name="apptentive.com.android.feedback.messagecenter.view.MessageCenterActivity" android:theme="@style/Theme.Apptentive" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="apptentive.com.android.feedback.notifications.ApptentiveNotificationActivity" android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"/>
+        <service android:foregroundServiceType="mediaProjection|microphone" android:name="com.hbisoft.hbrecorder.ScreenRecordService"/>
+        <receiver android:name="com.hbisoft.hbrecorder.NotificationReceiver"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
+            <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <uses-library android:name="androidx.camera.extensions.impl" android:required="false"/>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.provider.datadog.rum" android:exported="false" android:name="com.datadog.android.rum.DdRumContentProvider"/>
+        <activity android:exported="false" android:name="com.braze.ui.BrazeWebViewActivity"/>
+        <activity android:exported="false" android:name="com.braze.ui.activities.ContentCardsActivity"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.braze.push.NotificationTrampolineActivity" android:taskAffinity=".NotificationTrampolineActivity" android:theme="@style/Braze.PushTrampoline.Transparent"/>
+        <receiver android:exported="false" android:name="com.braze.push.BrazePushReceiver"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.SentryInitProvider" android:exported="false" android:name="io.sentry.android.core.SentryInitProvider"/>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.SentryPerformanceProvider" android:exported="false" android:initOrder="200" android:name="io.sentry.android.core.SentryPerformanceProvider"/>
+        <receiver android:exported="false" android:name="com.braze.BrazeFlushPushDeliveryReceiver">
+            <intent-filter>
+                <action android:name="com.braze.FLUSH_EVENTS"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <receiver android:exported="false" android:name="com.geocomply.client.GeoComplyClientBroadcastReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.geocomply.client.GeoComplyClientBootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.geocomply.location.WarmingUpLocationProvidersService"/>
+        <provider android:authorities="com.fanduel.flywheelnativecontainer.futures.geocomply.gcinitcontentprovider" android:exported="false" android:name="com.geocomply.client.GeoComplyClientInitContentProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="io.radar.sdk.RadarLocationReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="io.radar.sdk.LocationReceiver.SYNCED_GEOFENCES"/>
+                <action android:name="io.radar.sdk.LocationReceiver.GEOFENCE"/>
+                <action android:name="io.radar.sdk.LocationReceiver.LOCATION"/>
+                <action android:name="io.radar.sdk.LocationReceiver.BEACON"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="io.radar.sdk.RadarJobScheduler" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:foregroundServiceType="location" android:name="io.radar.sdk.RadarForegroundService"/>
+        <activity android:exported="false" android:name="com.perimeterx.mobile_sdk.block.PXBlockActivity"/>
+        <activity android:exported="false" android:name="com.perimeterx.mobile_sdk.doctor_app.ui.PXDoctorActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/title_activity_loyalty" android:name="ie.imobile.extremepush.ui.LoyaltyActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/title_activity_inbox" android:name="ie.imobile.extremepush.ui.InboxActivity" android:theme="@style/Theme.Transparent"/>
+        <activity android:exported="false" android:name="ie.imobile.extremepush.ui.OnclickPushActivity" android:taskAffinity=""/>
+        <activity android:exported="false" android:name="ie.imobile.extremepush.ui.WebViewActivity"/>
+        <activity android:exported="false" android:label="Locations are not available" android:name="ie.imobile.extremepush.ui.LocationDialogActivity" android:theme="@android:style/Theme.Dialog"/>
+        <service android:name="ie.imobile.extremepush.util.ImageHandlerJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="ie.imobile.extremepush.receivers.XP_App_Update_Receiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <category android:name="."/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="ie.imobile.extremepush.receivers.CoreBroadcastReceiver">
+            <intent-filter>
+                <action android:name="ie.imobile.extremepush.BEACON_SERVICE_STARTED"/>
+                <action android:name="ie.imobile.extremepush.COMMAND"/>
+                <category android:name="."/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="ie.imobile.extremepush.location.GeoLocationService"/>
+        <receiver android:exported="false" android:name="ie.imobile.extremepush.location.GeoLocationBroadcastReceiver"/>
+        <receiver android:exported="false" android:name="ie.imobile.extremepush.location.ProxymityAlertReceiver"/>
+        <service android:name="ie.imobile.extremepush.beacons.BeaconLocationService"/>
+        <service android:name="ie.imobile.extremepush.beacons.XPBeaconJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="ie.imobile.extremepush.beacons.BeaconLocationReceiver"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    </application>
+</manifest>

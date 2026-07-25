@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_primary_content_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_primary_content_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_primary_content_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_primary_content_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_primary_background_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_primary_background_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_primary_background_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_primary_background_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_secondary_content_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_secondary_content_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_secondary_content_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_secondary_content_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_secondary_background_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_secondary_background_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_secondary_background_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_secondary_background_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_tertiary_content_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_tertiary_content_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_tertiary_content_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_tertiary_content_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_tertiary_background_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_tertiary_background_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_tertiary_background_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_tertiary_background_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_transparent_content_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_transparent_content_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_transparent_content_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_transparent_content_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_transparent_background_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_transparent_background_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_transparent_background_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_transparent_background_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_destructive_content_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_destructive_content_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_destructive_content_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_destructive_content_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_destructive_background_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_destructive_background_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_destructive_background_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_destructive_background_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_button_link_content_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_button_link_content_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_button_link_content_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_button_link_content_disabled" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_button_link_background_base" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_button_link_background_hover" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_button_link_background_active" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?component_button_button_link_background_disabled" />
+    </GridLayout>
+</LinearLayout>

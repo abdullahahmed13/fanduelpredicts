@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:stretchColumns="0,1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" style="@style/Formation.Button.Small.Link.Destructive" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" style="@style/Formation.Button.Regular.Link.Destructive" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:description="Description" style="@style/Formation.Button.Small.Link.Destructive" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:description="Description" style="@style/Formation.Button.Regular.Link.Destructive" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:iconLeft="@drawable/ic_general_add" style="@style/Formation.Button.Small.Link.Destructive" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:iconLeft="@drawable/ic_general_add" style="@style/Formation.Button.Regular.Link.Destructive" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:description="Description" app:iconLeft="@drawable/ic_general_add" style="@style/Formation.Button.Small.Link.Destructive" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:description="Description" app:iconLeft="@drawable/ic_general_add" style="@style/Formation.Button.Regular.Link.Destructive" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:iconRight="@drawable/ic_arrows_chevron_right" style="@style/Formation.Button.Small.Link.Destructive" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:iconRight="@drawable/ic_arrows_chevron_right" style="@style/Formation.Button.Regular.Link.Destructive" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:description="Description" app:iconRight="@drawable/ic_arrows_chevron_right" style="@style/Formation.Button.Small.Link.Destructive" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:description="Description" app:iconRight="@drawable/ic_arrows_chevron_right" style="@style/Formation.Button.Regular.Link.Destructive" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:enabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" style="@style/Formation.Button.Small.Link.Destructive" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:enabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" style="@style/Formation.Button.Regular.Link.Destructive" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:enabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:description="Description" style="@style/Formation.Button.Small.Link.Destructive" />
+        </FrameLayout>
+        <FrameLayout>
+            <com.fanduel.formation.views.components.FDButton android:enabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_label" app:description="Description" style="@style/Formation.Button.Regular.Link.Destructive" />
+        </FrameLayout>
+    </TableRow>
+</TableLayout>

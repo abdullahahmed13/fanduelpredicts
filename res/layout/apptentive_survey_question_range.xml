@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.slider.Slider android:id="@id/apptentive_range_slider" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?apptentiveSurveyRangeStyle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView android:id="@id/apptentive_min_label" android:layout_width="0.0dip" android:layout_height="wrap_content" style="?apptentiveSurveyRangeLabelStyle" />
+        <com.google.android.material.textview.MaterialTextView android:id="@id/apptentive_max_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:textAlignment="viewEnd" style="?apptentiveSurveyRangeLabelStyle" />
+    </LinearLayout>
+</LinearLayout>

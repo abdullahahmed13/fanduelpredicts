@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:autoMirrored="true" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/smi_icon_background" android:pathData="M2,10L17,11.999L2,14L2.011,21L22.999,11.999L2.011,3L2,10Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,61 @@
+.class public abstract Landroidx/core/app/j;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static a(Landroid/app/NotificationChannel;)Ljava/lang/String;
+    .locals 0
+
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getConversationId()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static b(Landroid/app/NotificationManager;Ljava/lang/String;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    .locals 0
+
+    invoke-virtual {p0, p1, p2}, Landroid/app/NotificationManager;->getNotificationChannel(Ljava/lang/String;Ljava/lang/String;)Landroid/app/NotificationChannel;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static c(Landroid/app/NotificationChannel;)Ljava/lang/String;
+    .locals 0
+
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getParentChannelId()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static d(Landroid/app/NotificationChannel;)Ljava/lang/String;
+    .locals 0
+
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getParentChannelId()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static e(Landroid/app/NotificationChannel;)V
+    .locals 0
+
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->isImportantConversation()Z
+
+    return-void
+.end method
+
+.method public static f(Landroid/app/NotificationChannel;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    invoke-virtual {p0, p1, p2}, Landroid/app/NotificationChannel;->setConversationId(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method

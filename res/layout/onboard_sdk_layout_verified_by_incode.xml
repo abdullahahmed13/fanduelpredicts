@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.incode.welcome_sdk.views.IncodeImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" app:srcCompat="@drawable/onboard_sdk_cloud_checkmark" />
+    <com.incode.welcome_sdk.views.IncodeTextView android:textSize="14.0sp" android:textColor="@color/onboard_sdk_TextColorDefault" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboard_sdk_id_document_selection_footer" android:maxLines="1" android:alpha="0.5" android:fontFamily="@font/onboard_sdk_FontFamilyRegular" android:paddingHorizontal="4.0dip" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" />
+    <com.incode.welcome_sdk.views.IncodeImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" app:srcCompat="@drawable/onboard_sdk_logo_footer" />
+</LinearLayout>

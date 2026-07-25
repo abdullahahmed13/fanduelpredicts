@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "analyticVendors": ["Amplitude"],
+  "items": [
+    {
+      "id": "SUPPORT",
+      "label": "Support",
+      "type": "collapsible",
+      "nested_items": [
+        {
+          "id": "ABOUT_FANDUEL",
+          "event_name": "About Fanduel",
+          "type": "link",
+          "label": "About FanDuel",
+          "url": "/about",
+          "order": 0
+        },
+        {
+          "id": "HELP_SUPPORT",
+          "event_name": "Help and Support",
+          "label": "Help and support",
+          "type": "function",
+          "method": "support",
+          "order": 3
+        },
+        {
+          "id": "ABOUT_RESPONSIBLE_GAMING",
+          "event_name": "About Responsible Gaming",
+          "type": "link",
+          "label": "About Responsible gaming",
+          "url": "/responsible-play/about",
+          "order": 5
+        },
+        {
+          "id": "ACCESSIBILITY",
+          "event_name": "Accessibility",
+          "type": "link",
+          "label": "Accessibility",
+          "url": "https://www.fanduel.com/accessibility",
+          "order": 6
+        },
+        {
+          "id": "TERMS_AND_CONDITIONS",
+          "event_name": "Terms and Conditions",
+          "type": "link",
+          "label": "Terms and conditions",
+          "url": "/terms",
+          "order": 9
+        },
+        {
+          "id": "PRIVACY",
+          "event_name": "Privacy",
+          "type": "link",
+          "label": "Privacy",
+          "url": "/privacy",
+          "order": 11
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "LOGOUT",
+      "event_name": "Logout Confirmation Alert",
+      "type": "function",
+      "method": "logout",
+      "pre_alert": {
+        "title": "Are you sure you want to log out?",
+        "accept": {
+          "text": "Yes",
+          "destructive": true,
+          "event_name": "Logout"
+        },
+        "deny": {
+          "text": "No",
+          "event_name": "Logout Cancel"
+        }
+      },
+      "label": "Log out",
+      "trailing_icon": "log_out",
+      "tint": "linkDestructiveBase",
+      "order": 1
+    }
+  ],
+  "wallet": {
+    "id": "WALLET_CONFIG",
+    "type": "wallet_config",
+    "enable_deposit": false,
+    "enable_withdraw": false,
+    "labels": {
+      "balance_details": "Balance Details"
+    },
+    "actions": {
+      "on_playable_balance_click": "balance_details"
+    },
+    "show_balance_if_zero": {
+      "PLAYABLE": false
+    },
+    "playable_balance_dialog_content": {
+      "event_name": "Playable Balance Info",
+      "content": "These are all the funds you can play in Sportsbook.<br/><br/><b>Shared deposits</b><br/>You can use deposits made to Sportsbook, Casino, and Racing to play. Deposits made to other FanDuel products appear in non-playable balances.<br/><br/><b>Bonuses</b><br/>You can use bonuses from Sportsbook only. All other bonuses appear in non-playable balances.<br/><br/><b>Shared winnings</b><br/>You can use any of your winnings across FanDuel."
+    },
+    "main_balance": {
+      "id": "PLAYABLE",
+      "label": "Playable Balance"
+    },
+    "wallet_items": []
+  },
+  "footer": {
+    "id": "FOOTER_CONFIG",
+    "type": "localizable_footer",
+    "text": "If you or someone you know has a gambling problem and wants help, call 1-800-GAMBLER. Users must be 21+ (18+ in DC, KY, PR, WY) to place bets on Sportsbook. Account sharing is prohibited. For customer support please contact us <a class=\"link\" href=\"https://sportsbook.fanduel.com/support\">here</a>.",
+    "icon": {
+      "item": {
+        "id": "default_responsible_gaming_icon",
+        "accessibility_label": "Responsible Gaming"
+      },
+      "target_url": {
+        "path": "/responsible-play"
+      },
+      "modal_title": "Responsible Gaming"
+    }
+  }
+}

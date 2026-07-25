@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TableRow>
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="0" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="0" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="0" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="0" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="25" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="25" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="25" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="25" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="50" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="50" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="50" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="50" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="75" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="75" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="75" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="75" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Default.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" app:enabled="false" style="@style/Formation.ProgressBar.Default.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" app:enabled="false" style="@style/Formation.ProgressBar.Default.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" app:enabled="false" style="@style/Formation.ProgressBar.Default.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" app:enabled="false" style="@style/Formation.ProgressBar.Default.Positive" />
+    </TableRow>
+    <TableRow android:paddingTop="20.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="0" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="0" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="0" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="0" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="25" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="25" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="25" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="25" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="50" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="50" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="50" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="50" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="75" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="75" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="75" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="75" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" style="@style/Formation.ProgressBar.Large.Positive" />
+    </TableRow>
+    <TableRow android:layout_marginTop="12.0dip">
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" app:enabled="false" style="@style/Formation.ProgressBar.Large.Important" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" app:enabled="false" style="@style/Formation.ProgressBar.Large.Warning" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" app:enabled="false" style="@style/Formation.ProgressBar.Large.Info" />
+        <com.fanduel.formation.views.components.FDProgressBar android:progress="100" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip" app:enabled="false" style="@style/Formation.ProgressBar.Large.Positive" />
+    </TableRow>
+</TableLayout>

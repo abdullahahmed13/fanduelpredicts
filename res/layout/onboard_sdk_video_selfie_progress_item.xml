@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutProgressItem" android:background="@color/onboard_sdk_black" android:layout_width="wrap_content" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.incode.welcome_sdk.views.IncodeImageView android:id="@id/ivVsProgressBar" android:layout_width="0.0dip" android:layout_height="@dimen/onboard_sdk_video_selfie_progress_item_height" android:layout_marginStart="@dimen/onboard_sdk_video_selfie_progress_item_margin" android:layout_marginEnd="@dimen/onboard_sdk_video_selfie_progress_item_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/onboard_sdk_video_selfie_progress_bar" />
+    <com.incode.welcome_sdk.views.IncodeImageView android:id="@id/ivVsProgressItemIcon" android:layout_width="32.0dip" android:layout_height="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivVsProgressBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

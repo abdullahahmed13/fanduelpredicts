@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/progressContainer" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/pb_preparing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_marginEnd="10.0dip" style="@style/onboard_sdk_ProgressBarIndeterminate" />
+        <com.incode.welcome_sdk.views.IncodeTextView android:id="@id/tv_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboard_sdk_results_fetching_in_progress" style="@style/onboard_sdk_Headline2" />
+    </LinearLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorLayout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:gravity="center_horizontal" android:id="@id/appBarLayout" android:background="@color/onboard_sdk_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/onboard_sdk_results_activity_app_bar_height" app:elevation="0.0dip">
+            <View android:layout_width="wrap_content" android:layout_height="108.0dip" app:layout_scrollFlags="scroll" />
+            <View android:layout_width="wrap_content" android:layout_height="59.0dip" />
+            <com.incode.welcome_sdk.ui.results.common.PersistentIconsTabLayout android:id="@id/tabLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:tabIndicatorColor="@color/onboard_sdk_IconColorDefault" app:tabIndicatorFullWidth="true" app:tabIndicatorHeight="4.0dip" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:paddingBottom="@dimen/onboard_sdk_results_activity_app_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <FrameLayout android:layout_gravity="center|top" android:id="@id/containerAvatar" android:paddingTop="36.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_behavior="com.incode.welcome_sdk.ui.results.common.ScrollingAlphaBehaviour">
+            <com.incode.welcome_sdk.commons.ui.RoundedCornersFixedWidthSquareImage android:layout_gravity="center_horizontal" android:id="@id/ivAvatar" android:background="@color/onboard_sdk_BackgroundDark" android:padding="1.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="10.0dip" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/onboard_sdk_CircleImageViewShape" app:srcCompat="@drawable/onboard_sdk_placeholder_face" app:strokeColor="@color/onboard_sdk_BackgroundDark" app:strokeWidth="1.0dip" />
+            <ImageView android:layout_gravity="center|bottom" android:id="@id/ivAvatarStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_anchor="@id/ivAvatar" app:layout_anchorGravity="center|bottom" />
+        </FrameLayout>
+        <com.incode.welcome_sdk.views.IncodeButton android:layout_gravity="right|top" android:id="@id/btnDone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip" android:text="@string/onboard_sdk_results_btn_done" style="@style/onboard_sdk_ButtonTextSmall" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.incode.welcome_sdk.ui.results.common.ScrollingNameScoreBehaviour">
+            <com.incode.welcome_sdk.ui.results.common.TextViewName android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/onboard_sdk_standard_margins" android:layout_marginTop="106.0dip" android:layout_marginRight="@dimen/onboard_sdk_standard_margins" style="@style/onboard_sdk_Headline3" />
+            <com.incode.welcome_sdk.views.IncodeTextView android:textColor="@color/onboard_sdk_state_success" android:id="@id/tvScore" android:layout_width="wrap_content" android:layout_height="wrap_content" app:onboard_sdk_textColor="@color/onboard_sdk_state_success" style="@style/onboard_sdk_Headline4" />
+        </LinearLayout>
+        <com.incode.welcome_sdk.views.IncodeButton android:layout_gravity="left|top" android:id="@id/btnReport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="28.0dip" android:text="@string/onboard_sdk_btn_reports" style="@style/onboard_sdk_ButtonPrimarySmall" />
+        <View android:layout_width="wrap_content" android:layout_height="108.0dip" app:layout_anchor="@id/appBarLayout" app:layout_anchorGravity="center" app:layout_scrollFlags="scroll" />
+        <View android:layout_width="wrap_content" android:layout_height="59.0dip" app:layout_anchor="@id/appBarLayout" app:layout_anchorGravity="center" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

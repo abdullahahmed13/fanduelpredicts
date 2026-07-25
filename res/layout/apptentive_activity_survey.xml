@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/apptentive_survey_root" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?apptentiveSurveyEdgeToEdgeStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:touchscreenBlocksFocus="false">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.MaterialToolbar android:id="@id/apptentive_top_app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:touchscreenBlocksFocus="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="?apptentiveSurveyToolbarStyle">
+                <com.google.android.material.textview.MaterialTextView android:id="@id/apptentive_survey_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?apptentiveSurveyTitleStyle" />
+                <ImageView android:id="@id/apptentive_survey_image_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/apptentive_survey_header_image" style="?apptentiveSurveyHeaderImageStyle" />
+            </com.google.android.material.appbar.MaterialToolbar>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/apptentive_list_survey_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" style="?apptentiveSurveyLayoutStyle" />
+    <LinearLayout android:id="@id/apptentive_paged_survey_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" style="?apptentiveSurveyLayoutPagedStyle">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/apptentive_survey_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" style="?apptentiveSurveyViewPagerStyle" />
+        <com.google.android.material.button.MaterialButton android:id="@id/apptentive_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?apptentiveSurveyNextButtonStyle" />
+        <apptentive.com.android.feedback.survey.view.SurveySegmentedProgressBar android:id="@id/apptentive_progress_bar_segmented" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/apptentive_progress_bar_linear" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?apptentiveProgressBarLinearStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/apptentive_bottom_app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?apptentiveSurveyBottomAppBarStyle">
+        <com.google.android.material.textview.MaterialTextView android:id="@id/apptentive_terms_and_conditions" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?apptentiveSurveyTermsAndConditionsStyle" />
+    </LinearLayout>
+</LinearLayout>

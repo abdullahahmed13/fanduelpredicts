@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/notification_background_light" android:layout_width="fill_parent" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/startNotification" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/iconview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/notificationTitle" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="SuperSU" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff888888" android:id="@id/notificationText" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="cdefg" android:layout_below="@id/notificationTitle" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/notification_main_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/bigPicImage" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/carouselLeft" android:background="@null" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/carouselRight" android:background="@null" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

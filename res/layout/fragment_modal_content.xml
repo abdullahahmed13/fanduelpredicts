@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="0.0dip" style="@style/CoreModalPresenterToolbar">
+        <FrameLayout android:layout_gravity="start" android:id="@id/leadingActionButtonContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space2" android:backgroundTint="@color/link_button_background_color_states">
+            <com.google.android.material.button.MaterialButton android:textColor="@color/core_white" android:id="@id/leadingActionButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space2" android:paddingVertical="14.0dip" style="@style/Formation.Button.Regular.Link" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/leadingActionIcon" android:visibility="gone" android:layout_width="@dimen/core_modal_presenter_icon_size" android:layout_height="@dimen/core_modal_presenter_icon_size" android:layout_marginHorizontal="@dimen/space2" android:layout_marginVertical="@dimen/space4" app:tint="@color/core_white" />
+            <FrameLayout android:id="@id/leadingCustomActionItemContainer" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="56.0dip" />
+        </FrameLayout>
+        <TextView android:textColor="@color/core_white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space2" style="@style/Formation.TextAppearance.Heading.Large" />
+        <FrameLayout android:layout_gravity="end" android:id="@id/trailingActionButtonContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@color/link_button_background_color_states" android:layout_marginHorizontal="@dimen/space2">
+            <com.google.android.material.button.MaterialButton android:textColor="@color/core_white" android:id="@id/trailingActionButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space2" android:paddingVertical="14.0dip" style="@style/Formation.Button.Regular.Link" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/trailingActionIcon" android:visibility="gone" android:layout_width="@dimen/core_modal_presenter_icon_size" android:layout_height="@dimen/core_modal_presenter_icon_size" android:layout_marginHorizontal="@dimen/space2" android:layout_marginVertical="@dimen/space4" app:tint="@color/core_white" />
+            <FrameLayout android:id="@id/trailingCustomActionItemContainer" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="56.0dip" />
+        </FrameLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="account_hub_timer_days_format">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="bonus_bet_expires">
+        <item quantity="other">- EARLIEST EXPIRES IN %d DAYS</item>
+        <item quantity="one">- EARLIEST EXPIRES IN 1 DAY</item>
+    </plurals>
+    <plurals name="libs_account_restricted_subtitle">
+        <item quantity="other">"We've found %d errors"</item>
+        <item quantity="one">"We've found %d error"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="onboard_sdk_captcha_x_seconds_left">
+        <item quantity="other">%d seconds left</item>
+        <item quantity="one">%d second left</item>
+    </plurals>
+    <plurals name="onboard_sdk_face_scan_attempts_remaining">
+        <item quantity="other">%d attempts remaining</item>
+        <item quantity="one">%d attempt remaining</item>
+    </plurals>
+    <plurals name="onboard_sdk_validation_attempts_remaining">
+        <item quantity="other">%d attempts remaining</item>
+        <item quantity="one">%d attempt remaining</item>
+    </plurals>
+</resources>

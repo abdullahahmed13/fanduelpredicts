@@ -1,0 +1,52 @@
+.class public final Landroidx/camera/core/impl/z0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/camera/core/impl/d1;
+.implements Landroidx/camera/core/impl/i0;
+.implements LO/p;
+
+
+# instance fields
+.field public final a:Landroidx/camera/core/impl/w0;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/camera/core/impl/w0;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/camera/core/impl/z0;->a:Landroidx/camera/core/impl/w0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getConfig()Landroidx/camera/core/impl/W;
+    .locals 0
+
+    iget-object p0, p0, Landroidx/camera/core/impl/z0;->a:Landroidx/camera/core/impl/w0;
+
+    return-object p0
+.end method
+
+.method public final l()I
+    .locals 1
+
+    sget-object v0, Landroidx/camera/core/impl/h0;->o0:Landroidx/camera/core/impl/g;
+
+    invoke-interface {p0, v0}, Landroidx/camera/core/impl/F0;->d(Landroidx/camera/core/impl/g;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Integer;
+
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
+
+    move-result p0
+
+    return p0
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="onboard_sdk_Headline1_TextSize">72.0sp</dimen>
+    <dimen name="onboard_sdk_Headline2_TextSize">58.0sp</dimen>
+    <dimen name="onboard_sdk_Headline3_TextSize">48.0sp</dimen>
+    <dimen name="onboard_sdk_Headline4_TextSize">28.0sp</dimen>
+    <dimen name="onboard_sdk_LabelBig_TextSize">20.0sp</dimen>
+    <dimen name="onboard_sdk_LabelSmall_TextSize">15.0sp</dimen>
+    <dimen name="onboard_sdk_circle_camera_diameter">440.0dip</dimen>
+    <dimen name="onboard_sdk_circle_camera_outline_base_size">352.0dip</dimen>
+    <dimen name="onboard_sdk_circle_camera_outline_size">452.0dip</dimen>
+    <dimen name="onboard_sdk_circle_camera_progress_outline_size">490.0dip</dimen>
+</resources>

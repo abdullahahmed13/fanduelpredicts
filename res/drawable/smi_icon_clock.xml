@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="14.0dip" android:width="14.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/smi_banner_text" android:pathData="M26,2C12.8,2 2,12.8 2,26s10.8,24 24,24s24,-10.8 24,-24S39.2,2 26,2zM26,44c-9.9,0 -18,-8.1 -18,-18S16.1,8 26,8s18,8.1 18,18S35.9,44 26,44z" />
+    <path android:fillColor="@color/smi_banner_text" android:pathData="M29.4,26.2c-0.3,-0.3 -0.4,-0.7 -0.4,-1.1v-9.6c0,-0.8 -0.7,-1.5 -1.5,-1.5h-3c-0.8,0 -1.5,0.7 -1.5,1.5v12.1c0,0.4 0.2,0.8 0.4,1.1l7.4,7.4c0.6,0.6 1.5,0.6 2.1,0l2.1,-2.1c0.6,-0.6 0.6,-1.5 0,-2.1L29.4,26.2z" />
+</vector>

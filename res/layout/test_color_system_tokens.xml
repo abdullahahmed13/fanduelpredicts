@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_info_background_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_info_background_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_info_border_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_info_content_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_info_content_on_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_info_content_accent" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_info_link_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_info_link_on_subtle" />
+    </GridLayout>
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_positive_background_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_positive_background_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_positive_border_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_positive_content_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_positive_content_on_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_positive_content_accent" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_positive_link_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_positive_link_on_subtle" />
+    </GridLayout>
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_alert_background_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_alert_background_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_alert_border_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_alert_content_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_alert_content_on_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_alert_content_accent" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_alert_link_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_alert_link_on_subtle" />
+    </GridLayout>
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_warning_background_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_warning_background_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_warning_border_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_warning_content_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_warning_content_on_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_warning_content_accent" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_warning_link_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_warning_link_on_subtle" />
+    </GridLayout>
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_important_background_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_important_background_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_important_border_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_important_content_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_important_content_on_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_important_content_accent" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_important_link_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_important_link_on_subtle" />
+    </GridLayout>
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_neutral_background_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_neutral_background_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_neutral_border_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_neutral_content_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_neutral_content_on_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_neutral_content_accent" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_neutral_link_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_neutral_link_on_subtle" />
+    </GridLayout>
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_verification_background_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_verification_background_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_verification_border_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_verification_content_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_verification_content_on_subtle" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_verification_content_accent" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_verification_link_on_default" />
+        <com.fanduel.formation.views.util.ColorSwatch android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" app:color="?system_verification_link_on_subtle" />
+    </GridLayout>
+</LinearLayout>

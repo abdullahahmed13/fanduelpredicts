@@ -1,0 +1,520 @@
+.class public final Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/fanduel/libs/geolocationsdk/logging/IAttributeProvider;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0010$\n\u0002\u0010\u0000\n\u0002\u0008\u0006\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\u0008\u0080\u0008\u0018\u00002\u00020\u0001B\'\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u0012\u0006\u0010\u0006\u001a\u00020\u0003\u0012\u0006\u0010\u0007\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u0016\u0010\u0010\u001a\u0010\u0012\u0004\u0012\u00020\u0003\u0012\u0006\u0012\u0004\u0018\u00010\u00120\u0011H\u0016J\t\u0010\u0013\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0014\u001a\u00020\u0005H\u00c6\u0003J\t\u0010\u0015\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0016\u001a\u00020\u0003H\u00c6\u0003J1\u0010\u0017\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u0002\u001a\u00020\u00032\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u00052\u0008\u0008\u0002\u0010\u0006\u001a\u00020\u00032\u0008\u0008\u0002\u0010\u0007\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010\u0018\u001a\u00020\u00192\u0008\u0010\u001a\u001a\u0004\u0018\u00010\u0012H\u00d6\u0003J\t\u0010\u001b\u001a\u00020\u001cH\u00d6\u0001J\t\u0010\u001d\u001a\u00020\u0003H\u00d6\u0001R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\n\u0010\u000bR\u0011\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000c\u0010\rR\u0011\u0010\u0006\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000e\u0010\u000bR\u0011\u0010\u0007\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000f\u0010\u000b\u00a8\u0006\u001e"
+    }
+    d2 = {
+        "Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;",
+        "Lcom/fanduel/libs/geolocationsdk/logging/IAttributeProvider;",
+        "region",
+        "",
+        "product",
+        "Lcom/fanduel/libs/geolocationsdk/config/ProductArea;",
+        "solution",
+        "identifier",
+        "<init>",
+        "(Ljava/lang/String;Lcom/fanduel/libs/geolocationsdk/config/ProductArea;Ljava/lang/String;Ljava/lang/String;)V",
+        "getRegion",
+        "()Ljava/lang/String;",
+        "getProduct",
+        "()Lcom/fanduel/libs/geolocationsdk/config/ProductArea;",
+        "getSolution",
+        "getIdentifier",
+        "getAttributes",
+        "",
+        "",
+        "component1",
+        "component2",
+        "component3",
+        "component4",
+        "copy",
+        "equals",
+        "",
+        "other",
+        "hashCode",
+        "",
+        "toString",
+        "library_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field private final identifier:Ljava/lang/String;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field private final product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field private final region:Ljava/lang/String;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field private final solution:Ljava/lang/String;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Lcom/fanduel/libs/geolocationsdk/config/ProductArea;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "region"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "product"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "solution"
+
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "identifier"
+
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->region:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+
+    iput-object p3, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->solution:Ljava/lang/String;
+
+    iput-object p4, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->identifier:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public static synthetic copy$default(Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;Ljava/lang/String;Lcom/fanduel/libs/geolocationsdk/config/ProductArea;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;
+    .locals 0
+
+    and-int/lit8 p6, p5, 0x1
+
+    if-eqz p6, :cond_0
+
+    iget-object p1, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->region:Ljava/lang/String;
+
+    :cond_0
+    and-int/lit8 p6, p5, 0x2
+
+    if-eqz p6, :cond_1
+
+    iget-object p2, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+
+    :cond_1
+    and-int/lit8 p6, p5, 0x4
+
+    if-eqz p6, :cond_2
+
+    iget-object p3, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->solution:Ljava/lang/String;
+
+    :cond_2
+    and-int/lit8 p5, p5, 0x8
+
+    if-eqz p5, :cond_3
+
+    iget-object p4, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->identifier:Ljava/lang/String;
+
+    :cond_3
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->copy(Ljava/lang/String;Lcom/fanduel/libs/geolocationsdk/config/ProductArea;Ljava/lang/String;Ljava/lang/String;)Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final component1()Ljava/lang/String;
+    .locals 0
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->region:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final component2()Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+    .locals 0
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+
+    return-object p0
+.end method
+
+.method public final component3()Ljava/lang/String;
+    .locals 0
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->solution:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final component4()Ljava/lang/String;
+    .locals 0
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->identifier:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final copy(Ljava/lang/String;Lcom/fanduel/libs/geolocationsdk/config/ProductArea;Ljava/lang/String;Ljava/lang/String;)Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;
+    .locals 0
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    const-string p0, "region"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "product"
+
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "solution"
+
+    invoke-static {p3, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "identifier"
+
+    invoke-static {p4, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;
+
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;-><init>(Ljava/lang/String;Lcom/fanduel/libs/geolocationsdk/config/ProductArea;Ljava/lang/String;Ljava/lang/String;)V
+
+    return-object p0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 4
+    .param p1    # Ljava/lang/Object;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;
+
+    iget-object v1, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->region:Ljava/lang/String;
+
+    iget-object v3, p1, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->region:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-object v1, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+
+    iget-object v3, p1, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+
+    if-eq v1, v3, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-object v1, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->solution:Ljava/lang/String;
+
+    iget-object v3, p1, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->solution:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->identifier:Ljava/lang/String;
+
+    iget-object p1, p1, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->identifier:Ljava/lang/String;
+
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_5
+
+    return v2
+
+    :cond_5
+    return v0
+.end method
+
+.method public getAttributes()Ljava/util/Map;
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object v0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->region:Ljava/lang/String;
+
+    new-instance v1, Lkotlin/Pair;
+
+    const-string v2, "state"
+
+    invoke-direct {v1, v2, v0}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    iget-object v0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+
+    invoke-virtual {v0}, Lcom/fanduel/libs/geolocationsdk/config/ProductArea;->getCode()Ljava/lang/String;
+
+    move-result-object v0
+
+    new-instance v2, Lkotlin/Pair;
+
+    const-string v3, "product"
+
+    invoke-direct {v2, v3, v0}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    iget-object v0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->solution:Ljava/lang/String;
+
+    new-instance v3, Lkotlin/Pair;
+
+    const-string v4, "solution"
+
+    invoke-direct {v3, v4, v0}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->identifier:Ljava/lang/String;
+
+    new-instance v0, Lkotlin/Pair;
+
+    const-string v4, "identifier"
+
+    invoke-direct {v0, v4, p0}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    filled-new-array {v1, v2, v3, v0}, [Lkotlin/Pair;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lkotlin/collections/M;->g([Lkotlin/Pair;)Ljava/util/Map;
+
+    move-result-object p0
+
+    new-instance v0, Lkotlin/Pair;
+
+    const-string v1, "requestData"
+
+    invoke-direct {v0, v1, p0}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    invoke-static {v0}, Lkotlin/collections/L;->b(Lkotlin/Pair;)Ljava/util/Map;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final getIdentifier()Ljava/lang/String;
+    .locals 0
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->identifier:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final getProduct()Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+    .locals 0
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+
+    return-object p0
+.end method
+
+.method public final getRegion()Ljava/lang/String;
+    .locals 0
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->region:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final getSolution()Ljava/lang/String;
+    .locals 0
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->solution:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public hashCode()I
+    .locals 3
+
+    iget-object v0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->region:Ljava/lang/String;
+
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    const/16 v1, 0x1f
+
+    mul-int/2addr v0, v1
+
+    iget-object v2, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
+
+    move-result v2
+
+    add-int/2addr v2, v0
+
+    mul-int/2addr v2, v1
+
+    iget-object v0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->solution:Ljava/lang/String;
+
+    invoke-static {v2, v1, v0}, Landroidx/camera/core/impl/n;->d(IILjava/lang/String;)I
+
+    move-result v0
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->identifier:Ljava/lang/String;
+
+    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
+
+    move-result p0
+
+    add-int/2addr p0, v0
+
+    return p0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 5
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object v0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->region:Ljava/lang/String;
+
+    iget-object v1, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->product:Lcom/fanduel/libs/geolocationsdk/config/ProductArea;
+
+    iget-object v2, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->solution:Ljava/lang/String;
+
+    iget-object p0, p0, Lcom/fanduel/libs/geolocationsdk/api/UpdateSolutionParametersFetchData;->identifier:Ljava/lang/String;
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "UpdateSolutionParametersFetchData(region="
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", product="
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", solution="
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", identifier="
+
+    const-string v1, ")"
+
+    invoke-static {v3, v2, v0, p0, v1}, LA3/e;->q(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

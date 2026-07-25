@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" style="?apptentiveSurveyScrollViewLayoutStyle">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="?apptentiveSurveyIntroductionLayoutStyle">
+            <com.google.android.material.textview.MaterialTextView android:id="@id/apptentive_survey_introduction" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?apptentiveSurveyIntroductionStyle" />
+            <com.google.android.material.textview.MaterialTextView android:id="@id/apptentive_survey_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?apptentiveSurveyDisclaimerStyle" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

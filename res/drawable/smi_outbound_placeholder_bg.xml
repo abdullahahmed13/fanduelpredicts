@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/smi_loading_screen_sent_bubble_background" />
+    <corners android:topLeftRadius="@dimen/smi_bubble_border_radius" android:topRightRadius="@dimen/smi_bubble_border_radius" android:bottomLeftRadius="@dimen/smi_bubble_border_radius" android:bottomRightRadius="@dimen/smi_bubble_border_tail_radius" />
+</shape>

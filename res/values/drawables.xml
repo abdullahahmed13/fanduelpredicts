@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="onboard_sdk_ButtonPrimaryAlt_Background">@drawable/onboard_sdk_btn_primary_alt</item>
+    <item type="drawable" name="onboard_sdk_ButtonPrimary_Background">@drawable/onboard_sdk_btn_primary</item>
+    <item type="drawable" name="onboard_sdk_ButtonSecondary_Background">@drawable/onboard_sdk_btn_secondary</item>
+    <item type="drawable" name="onboard_sdk_ButtonText_Background">@android:color/transparent</item>
+    <item type="drawable" name="onboard_sdk_InputEditTextError_Background">@drawable/onboard_sdk_bg_edit_text_error</item>
+    <item type="drawable" name="onboard_sdk_InputEditText_Background">@drawable/onboard_sdk_bg_edit_text_default</item>
+    <item type="drawable" name="onboard_sdk_ProgressBar_ProgressDrawable">@drawable/onboard_sdk_progress_bar_round</item>
+</resources>

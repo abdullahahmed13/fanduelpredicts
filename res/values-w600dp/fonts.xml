@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="font" name="onboard_sdk_Headline3_FontFamily">@font/onboard_sdk_FontFamilyBold</item>
+</resources>
